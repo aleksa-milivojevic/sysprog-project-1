@@ -22,6 +22,7 @@ namespace ProjectServer
             _threads = new List<Thread>();
         }
 
+        // dodaj ogranicenje za broj istovremenih thread-ova
         public void Start() {
             _listener.Start();
 
@@ -36,9 +37,7 @@ namespace ProjectServer
                 }
 
                 Thread thread = new Thread(() => {
-                    //thread funkcija za obradu http request-a
                     RequestHandle(request, response);
-                    Console.WriteLine("Hello world!");
                 });
 
                 _threads.Add(thread);
@@ -58,7 +57,8 @@ namespace ProjectServer
             var fileName = url.Substring(offset);
 
             if (fileName == null) {
-                
+                Console.WriteLine("[Server] File name not specified...");
+                return;
             }
 
             var worker = new FileWorker();
