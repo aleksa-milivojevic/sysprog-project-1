@@ -6,8 +6,9 @@ namespace FileUtil
 
         }
 
-        public void GetAvgWordLen(string fileName) {
+        public void GetAvgWordLen(string fileName, out double result) {
             TrackFile(fileName);
+            result = 10;
         }
     }
 }

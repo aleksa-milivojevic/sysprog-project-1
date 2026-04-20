@@ -6,6 +6,8 @@ namespace ProjectServer
     class Server
     {
         private readonly HttpListener _listener;
+
+        //private readonly FileWorker _worker;
         
         private readonly string hostUrl = "http://localhost:5182/";
 
@@ -16,6 +18,7 @@ namespace ProjectServer
         public Server() {
             _listener = new HttpListener();
             _listener.Prefixes.Add(hostUrl);
+            //_worker = new FileWorker();
             _threads = new List<Thread>();
         }
 
@@ -25,6 +28,7 @@ namespace ProjectServer
             while(!ShutDownRequested) {
                 HttpListenerContext context = _listener.GetContext();
                 HttpListenerRequest request = context.Request;
+                HttpListenerResponse response = context.Response;
 
                 if (request.HttpMethod != "GET") {
                     Console.WriteLine("[Server] Discarded a non-get http request...");
@@ -33,7 +37,7 @@ namespace ProjectServer
 
                 Thread thread = new Thread(() => {
                     //thread funkcija za obradu http request-a
-                    RequestHandle(request);
+                    RequestHandle(request, response);
                     Console.WriteLine("Hello world!");
                 });
 
@@ -48,12 +52,21 @@ namespace ProjectServer
             }
         }
 
-        private void RequestHandle(HttpListenerRequest request) {
-            var query = request.QueryString;
-            foreach(var key in query)
-            
-            //var worker = new FileWorker();
-            //tracker.GetAvgWordLen();
+        private void RequestHandle(HttpListenerRequest request, HttpListenerResponse response) {
+            var url = request.Url.OriginalString;
+            int offset = hostUrl.Length;
+            var fileName = url.Substring(offset);
+
+            if (fileName == null) {
+                
+            }
+
+            var worker = new FileWorker();
+            worker.GetAvgWordLen(fileName, out double result);
+            byte[] buffer = System.Text.Encoding.UTF8.GetBytes("<HTML><BODY> " + result + "</BODY></HTML>");
+            System.IO.Stream output = response.OutputStream;
+            output.Write(buffer, 0, buffer.Length);
+            output.Close();
         }
     }
 }
