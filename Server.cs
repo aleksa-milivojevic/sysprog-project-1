@@ -1,4 +1,5 @@
 using System.Net;
+using FileUtil;
 
 namespace ProjectServer
 {
@@ -30,8 +31,9 @@ namespace ProjectServer
                     continue;
                 }
 
-                Thread thread = new Thread(request => {
+                Thread thread = new Thread(() => {
                     //thread funkcija za obradu http request-a
+                    RequestHandle(request);
                     Console.WriteLine("Hello world!");
                 });
 
@@ -44,6 +46,14 @@ namespace ProjectServer
             foreach (var thread in _threads) {
                 thread.Join();
             }
+        }
+
+        private void RequestHandle(HttpListenerRequest request) {
+            var query = request.QueryString;
+            foreach(var key in query)
+            
+            //var worker = new FileWorker();
+            //tracker.GetAvgWordLen();
         }
     }
 }
