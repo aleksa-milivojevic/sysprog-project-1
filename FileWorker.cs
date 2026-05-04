@@ -13,15 +13,15 @@ namespace FileUtil
             return files.FirstOrDefault();
         }
 
-        public void GetAvgWordLen(string fileName, out double result) {
+        public void GetAvgWordLen(string fileName, out string result) {
             Console.WriteLine(fileName);
             if (fileName == "") {
-                result = -1;
+                result = "[Error] File not specified...";
                 return;
             }
             var path = TrackFile(fileName);
             if (path == null) {
-                result = -1;
+                result = "[Error] File not found";
                 return;
             }
 
@@ -35,7 +35,8 @@ namespace FileUtil
                 count += 1;
             }
             
-            result = (double)sum/(double)count;
+            double avg = (double)sum/(double)count;
+            result = "" + avg;
         }
     }
 }

@@ -96,7 +96,7 @@ namespace ProjectServer
             }
             else {
                 var worker = new FileWorker();
-                worker.GetAvgWordLen(fileName, out double result);
+                worker.GetAvgWordLen(fileName, out string result);
                 byte[] buffer = System.Text.Encoding.UTF8.GetBytes("<HTML><BODY> " + result + "</BODY></HTML>");
                 System.IO.Stream output = response.OutputStream;
                 output.Write(buffer, 0, buffer.Length);
