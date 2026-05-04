@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("sysprog-proj-1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47ee04ab605b88d875dab75787bdc5a03c690568")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ce6c4a9e3b33c4bb6d06a92065b6a3439fc6e46")]
 [assembly: System.Reflection.AssemblyProductAttribute("sysprog-proj-1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("sysprog-proj-1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
