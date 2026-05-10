@@ -39,7 +39,7 @@ namespace Services
         public ApiService() {
             _listener = new HttpListener();
             _listener.Prefixes.Add(_hostUrl);
-            _threads = new List<Thread>();
+            _threads = new List<Thread>(10);
             _sem = new SemaphoreSlim(100, 100);
             _reqSem = new SemaphoreSlim(0);
             _requests = new List<HttpListenerContext>();
@@ -70,29 +70,36 @@ namespace Services
             _listenerThread.Start();
             _shutDownThread.Start();
 
+            int i;
+            for (i = 0; i < _threads.Capacity; i++) {
+                _threads.Add(new Thread(new ParameterizedThreadStart(this.RequestHandle)));
+            }
             while(!ShutDownRequested) {
 
-                while (_threads.Count >= 50)
-                    Thread.Sleep(500);
-
+                Thread? thread = null;
+                for(i = 0; i < _threads.Count; i++) {
+                    if (!_threads[i].IsAlive) {
+                        _threads[i] = new Thread(new ParameterizedThreadStart(this.RequestHandle));
+                        thread = _threads[i];
+                        break;
+                    }
+                }
+                if (thread == null)  {
+                    Thread.Sleep(100);
+                    continue;
+                }
                 _sem.Wait();
 
                 _reqSem.Wait();
-                HttpListenerRequest request = _requests[0].Request;
-                HttpListenerResponse response = _requests[0].Response;
-                _requests.RemoveAt(0);
 
-                if (request.HttpMethod != "GET") {
+                if (_requests[0].Request.HttpMethod != "GET") {
                     _logger.Log($"[ApiService] [{DateTime.Now}] Discarded a non-get http request...");
                     continue;
                 }
+                
 
-                Thread thread = new Thread(() => {
-                    RequestHandle(request, response, _threads.Count);
-                });
-
-                _threads.Add(thread);
-                thread.Start();
+                thread.Start(_requests[0]);
+                _requests.RemoveAt(0);
 
             }
 
@@ -114,7 +121,13 @@ namespace Services
             writer.Write(file, result);
         }
 
-        private void RequestHandle(HttpListenerRequest request, HttpListenerResponse response, int threadIndex) {
+        public void RequestHandle(object? context) {
+            if (context == null) {
+                return;
+            }
+            HttpListenerContext c = (HttpListenerContext)context;
+            HttpListenerRequest request = c.Request;
+            HttpListenerResponse response = c.Response;
             var requestUrl = request.Url.OriginalString;
             int offset = _hostUrl.Length;
             var file = requestUrl.Substring(offset);
@@ -127,11 +140,11 @@ namespace Services
                 return;
             }
             
-            _logger.Log($"[Thread {threadIndex}] [{DateTime.Now}] started for file: '{file}'");
+            _logger.Log($"[Thread] [{DateTime.Now}] started for file: '{file}'");
             JObject cacheHit;
 
             if (_cache.Get(file, out cacheHit)) {
-                _logger.Log($"[Thread {threadIndex}] [{DateTime.Now}] CACHE HIT  -> '{file}' (taken from cache)");
+                _logger.Log($"[Thread] [{DateTime.Now}] CACHE HIT  -> '{file}' (taken from cache)");
                 Respond(file, cacheHit, response);
                 return;
             }
@@ -139,12 +152,13 @@ namespace Services
             Monitor.Enter(_cacheLock);
 
             if (_cache.Get(file, out cacheHit)) {
-                _logger.Log($"[Thread {threadIndex}] [{DateTime.Now}] CACHE HIT  -> '{file}' (taken from cache)");
+                _logger.Log($"[Thread] [{DateTime.Now}] CACHE HIT  -> '{file}' (taken from cache)");
                 Respond(file, cacheHit, response);
+                Monitor.Exit(_cacheLock);
                 return;
             }
 
-            _logger.Log($"[Thread {threadIndex}] [{DateTime.Now}] CACHE MISS -> '{file}' (sending API request)");
+            _logger.Log($"[Thread] [{DateTime.Now}] CACHE MISS -> '{file}' (sending API request)");
 
             string url = $"{_baseUrl}{file}";
 
@@ -154,12 +168,12 @@ namespace Services
                 JObject result = JObject.Parse(body);
 
                 _cache.Set(file, result);
-                _logger.Log($"[Thread {threadIndex}] [{DateTime.Now}] Result stored in cache for query: '{file}'");
+                _logger.Log($"[Thread] [{DateTime.Now}] Result stored in cache for query: '{file}'");
 
                 Respond(file, result, response);
             }
             catch (Exception ex) {
-                _logger.Log($"[Thread {threadIndex}] [{DateTime.Now}] Error while fetching file '{file}': {ex.Message}");
+                _logger.Log($"[Thread] [{DateTime.Now}] Error while fetching file '{file}': {ex.Message}");
                 Respond(file, new JObject(), response);
             }
             finally {
@@ -197,7 +211,12 @@ namespace Services
                 }
        
                 foreach (var thread in _threads) {
-                    thread.Join(5000);
+                    try {
+                        thread.Join(5000);
+                    }
+                    catch(Exception ex) {
+                        _logger.Log($"[ApiService] [{DateTime.Now}] Error: Thread unjoinable - {ex.Message}");
+                    }
                 }
 
                 waitForExit.Set();

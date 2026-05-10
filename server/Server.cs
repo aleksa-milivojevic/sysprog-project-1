@@ -2,6 +2,7 @@ using System.Net;
 using System.Threading;
 using System.Runtime.InteropServices;
 using FileUtil;
+using LogUtil;
 
 namespace ProjectServer
 {
@@ -24,13 +25,16 @@ namespace ProjectServer
 
         private Thread _shutDownThread;
 
+        private readonly Logger _logger;
+
         public Server() {
             _listener = new HttpListener();
             _listener.Prefixes.Add(hostUrl);
-            _threads = new List<Thread>();
+            _threads = new List<Thread>(10);
             _sem = new SemaphoreSlim(100, 100);
             _reqSem = new SemaphoreSlim(0);
             _requests = new List<HttpListenerContext>();
+            _logger = new Logger();
 
             _listenerThread = new Thread(() => {
                 _listener.Start();
@@ -39,7 +43,7 @@ namespace ProjectServer
                     HttpListenerContext context = _listener.GetContext();
                     _requests.Add(context);
                     _reqSem.Release();
-                    Console.WriteLine("[Listener] Heard a request");
+                    _logger.Log($"[ServerListener] [{DateTime.Now}] Heard a request");
                 }
             });
 
@@ -49,44 +53,57 @@ namespace ProjectServer
         }
 
         public void Start() {
-            Console.WriteLine("[Server] Server is up");
+            _logger.Log($"[Server] [{DateTime.Now}] Server is up!");
 
             _listenerThread.Start();
             _shutDownThread.Start();
 
+            int i;
+            for (i = 0; i < _threads.Capacity; i++) {
+                _threads.Add(new Thread(new ParameterizedThreadStart(this.RequestHandle)));
+            }
+
             while(!ShutDownRequested) {
 
-                while (_threads.Count >= 50)
-                    Thread.Sleep(500);
-
-                _sem.Wait();
-                Console.WriteLine("[Main Thread] Waited for _sem");
-
-                _reqSem.Wait();
-                Console.WriteLine("[Main Thread] Waited for _reqSem");
-                HttpListenerRequest request = _requests[0].Request;
-                HttpListenerResponse response = _requests[0].Response;
-                _requests.RemoveAt(0);
-
-                if (request.HttpMethod != "GET") {
-                    Console.WriteLine("[Server] Discarded a non-get http request...");
+                Thread? thread = null;
+                for(i = 0; i < _threads.Count; i++) {
+                    if (!_threads[i].IsAlive) {
+                        _threads[i] = new Thread(new ParameterizedThreadStart(this.RequestHandle));
+                        thread = _threads[i];
+                        break;
+                    }    
+                }
+                if (thread == null)  {
+                    Thread.Sleep(100);
                     continue;
                 }
 
-                Thread thread = new Thread(() => {
-                    Console.WriteLine("[Thread] Created");
-                    RequestHandle(request, response);
-                });
+                _sem.Wait();
+                _logger.Log($"[Server] [{DateTime.Now}] Waited for _sem");
 
-                _threads.Add(thread);
-                thread.Start();
+                _reqSem.Wait();
+                _logger.Log($"[Server] [{DateTime.Now}] Waited for _reqSem");
+
+                if (_requests[0].Request.HttpMethod != "GET") {
+                    _logger.Log($"[Server] [{DateTime.Now}] Discarded a non-get http request...");
+                    continue;
+                }
+
+                thread.Start(_requests[0]);
+                _requests.RemoveAt(0);
 
             }
 
             _shutDownThread.Join();
         }
 
-        private void RequestHandle(HttpListenerRequest request, HttpListenerResponse response) {
+        private void RequestHandle(object? context) {
+            if (context == null) {
+                return;
+            }
+            HttpListenerContext c = (HttpListenerContext)context;
+            HttpListenerRequest request = c.Request;
+            HttpListenerResponse response = c.Response;
             var url = request.Url.OriginalString;
             int offset = hostUrl.Length;
             var fileName = url.Substring(offset);
@@ -112,8 +129,8 @@ namespace ProjectServer
             var waitForExit = new ManualResetEventSlim(false);
             
             PosixSignalRegistration.Create(PosixSignal.SIGINT, context => {
-                Console.WriteLine("\n[Server] SIGINT called");
-                Console.WriteLine("[Server] Shutting down gracefuly...");
+                _logger.Log($"\n[Server] [{DateTime.Now}] SIGINT called");
+                _logger.Log($"[Server] [{DateTime.Now}] Shutting down gracefuly...");
 
                 ShutDownRequested = true;
 
@@ -127,7 +144,12 @@ namespace ProjectServer
                 }
        
                 foreach (var thread in _threads) {
-                    thread.Join(5000);
+                    try {
+                        thread.Join(5000);
+                    }
+                    catch(Exception ex) {
+                        _logger.Log($"[Server] [{DateTime.Now}] Error: Thread unjoinable - {ex.Message}");
+                    }
                 }
 
                 waitForExit.Set();

@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using LogUtil;
 
 namespace FileUtil
 {
@@ -8,7 +9,7 @@ namespace FileUtil
         private string TrackFile(string fileName) {
 
             string home = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
-            string targetDir = home; //+ "/sysprog/testfiles";
+            string targetDir = home;// + "/sysprog/testfiles";
             var files = Directory.EnumerateFiles(targetDir, fileName, SearchOption.AllDirectories);
             return files.FirstOrDefault();
         }

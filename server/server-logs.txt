@@ -1,0 +1,44 @@
+[Server] [10/05/2026 23:18:11] Server is up!
+[Server] [10/05/2026 23:18:11] Waited for _sem
+[ServerListener] [10/05/2026 23:18:16] Heard a request
+[Server] [10/05/2026 23:18:16] Waited for _reqSem
+[Server] [10/05/2026 23:18:16] Waited for _sem
+[ServerListener] [10/05/2026 23:18:16] Heard a request
+[Server] [10/05/2026 23:18:16] Waited for _reqSem
+[Server] [10/05/2026 23:18:16] Waited for _sem
+[ServerListener] [10/05/2026 23:18:16] Heard a request
+[Server] [10/05/2026 23:18:16] Waited for _reqSem
+[Server] [10/05/2026 23:18:16] Waited for _sem
+[ServerListener] [10/05/2026 23:18:16] Heard a request
+[Server] [10/05/2026 23:18:16] Waited for _reqSem
+[Server] [10/05/2026 23:18:16] Waited for _sem
+[ServerListener] [10/05/2026 23:18:16] Heard a request
+[Server] [10/05/2026 23:18:16] Waited for _reqSem
+[Server] [10/05/2026 23:18:16] Waited for _sem
+[ServerListener] [10/05/2026 23:18:17] Heard a request
+[Server] [10/05/2026 23:18:17] Waited for _reqSem
+[Server] [10/05/2026 23:18:17] Waited for _sem
+[Server] [10/05/2026 23:18:17] Waited for _reqSem
+[ServerListener] [10/05/2026 23:18:17] Heard a request
+[Server] [10/05/2026 23:18:17] Waited for _sem
+[ServerListener] [10/05/2026 23:18:17] Heard a request
+[Server] [10/05/2026 23:18:17] Waited for _reqSem
+[Server] [10/05/2026 23:18:17] Waited for _sem
+[ServerListener] [10/05/2026 23:18:17] Heard a request
+[Server] [10/05/2026 23:18:17] Waited for _reqSem
+[Server] [10/05/2026 23:18:17] Waited for _sem
+[Server] [10/05/2026 23:18:17] Waited for _reqSem
+[ServerListener] [10/05/2026 23:18:17] Heard a request
+[Server] [10/05/2026 23:18:17] Waited for _sem
+
+[Server] [10/05/2026 23:18:42] SIGINT called
+[Server] [10/05/2026 23:18:42] Shutting down gracefuly...
+[Server] [10/05/2026 23:18:42] Error: Thread unjoinable - Thread has not been started.
+[Server] [10/05/2026 23:18:42] Error: Thread unjoinable - Thread has not been started.
+[Server] [10/05/2026 23:18:42] Error: Thread unjoinable - Thread has not been started.
+[Server] [10/05/2026 23:18:42] Error: Thread unjoinable - Thread has not been started.
+[Server] [10/05/2026 23:18:42] Error: Thread unjoinable - Thread has not been started.
+[Server] [10/05/2026 23:18:42] Error: Thread unjoinable - Thread has not been started.
+[Server] [10/05/2026 23:18:42] Error: Thread unjoinable - Thread has not been started.
+[Server] [10/05/2026 23:18:42] Error: Thread unjoinable - Thread has not been started.
+[Server] [10/05/2026 23:18:42] Error: Thread unjoinable - Thread has not been started.

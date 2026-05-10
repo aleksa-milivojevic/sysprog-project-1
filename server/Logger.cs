@@ -1,4 +1,4 @@
-namespace Utility
+namespace LogUtil
 {
     public class Logger {
 
@@ -7,7 +7,7 @@ namespace Utility
         private static readonly object _logLock = new object();
 
         public Logger() {
-            _logFile = "api-logs.txt";
+            _logFile = "server-logs.txt";
         }
 
         public void Log(string log) {
