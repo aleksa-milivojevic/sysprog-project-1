@@ -1,4 +1,4 @@
-##Zadatak 30:
+## Zadatak 30:
 
 Kreirati Web server koji vrši određivanje prosečne dužine reči u okviru fajla. Svi zahtevi serveru
 se šalju preko browser-a korišćenjem GET metode. U zahtevu se kao parametar navodi naziv fajla.
