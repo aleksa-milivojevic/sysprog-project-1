@@ -89,7 +89,7 @@ namespace ProjectServer
             var fileName = url.Substring(offset);
 
             if (fileName == null) {
-                byte[] buffer = System.Text.Encoding.UTF8.GetBytes("<HTML><BODY>No file specified</BODY></HTML>");
+                byte[] buffer = System.Text.Encoding.UTF8.GetBytes("{'result': 'File not specified'}");
                 System.IO.Stream output = response.OutputStream;
                 output.Write(buffer, 0, buffer.Length);
                 output.Close();
@@ -97,7 +97,7 @@ namespace ProjectServer
             else {
                 var worker = new FileWorker();
                 worker.GetAvgWordLen(fileName, out string result);
-                byte[] buffer = System.Text.Encoding.UTF8.GetBytes("<HTML><BODY> " + result + "</BODY></HTML>");
+                byte[] buffer = System.Text.Encoding.UTF8.GetBytes($"{{'result': {result}}}");
                 System.IO.Stream output = response.OutputStream;
                 output.Write(buffer, 0, buffer.Length);
                 output.Close();

@@ -35,7 +35,7 @@ namespace FileUtil
                 count += 1;
             }
             
-            double avg = (double)sum/(double)count;
+            double avg = Math.Round((double)sum/(double)count, 2);
             result = "" + avg;
         }
     }

@@ -1,0 +1,174 @@
+
+File: f1.txt
+Result: 2.15
+
+File: f1.txt
+Result: 6.151515151515151
+
+File: f2.txt
+Result: 7.515151515151516
+
+File: f3.txt
+Result: 5.513513513513513
+
+File: f4.txt
+Result: 6.545454545454546
+
+File: f5.txt
+Result: 7.233333333333333
+
+File: f1.txt
+Result: 5.51
+
+File: f2.txt
+Result: 7.5
+
+File: f3.txt
+Result: 7.06
+
+File: f4.txt
+Result: 6.55
+
+File: f5.txt
+Result: 8.71
+
+File: f6.txt
+Result: 7.23
+
+File: f7.txt
+Result: 7.48
+
+File: f8.txt
+Result: 6.15
+
+File: f9.txt
+Result: 7.52
+
+File: f10.txt
+Result: 8.27
+
+File: f1.txt
+Result: 7.52
+
+File: f2.txt
+Result: 6.15
+
+File: f3.txt
+Result: 5.51
+
+File: f1.txt
+Result: 7.23
+
+File: f2.txt
+Result: 8.27
+
+File: f3.txt
+Result: 7.06
+
+File: f4.txt
+Result: 7.52
+
+File: f5.txt
+Result: 6.55
+
+File: f6.txt
+Result: 8.71
+
+File: f7.txt
+Result: 7.5
+
+File: f8.txt
+Result: 6.15
+
+File: f9.txt
+Result: 5.51
+
+File: f10.txt
+Result: 7.48
+
+File: f1.txt
+Result: 6.15
+
+File: f2.txt
+Result: 5.51
+
+File: f3.txt
+Result: 7.52
+
+File: f1.txt
+Result: 6.55
+
+File: f2.txt
+Result: 7.23
+
+File: f3.txt
+Result: 6.15
+
+File: f4.txt
+Result: 8.27
+
+File: f5.txt
+Result: 7.5
+
+File: f6.txt
+Result: 7.52
+
+File: f7.txt
+Result: 7.48
+
+File: f8.txt
+Result: 7.06
+
+File: f9.txt
+Result: 5.51
+
+File: f10.txt
+Result: 8.71
+
+File: f1.txt
+Result: 7.52
+
+File: f2.txt
+Result: 5.51
+
+File: f3.txt
+Result: 6.15
+
+File: f1.txt
+Result: 7.23
+
+File: f2.txt
+Result: 8.27
+
+File: f3.txt
+Result: 6.15
+
+File: f4.txt
+Result: 7.48
+
+File: f5.txt
+Result: 5.51
+
+File: f6.txt
+Result: 7.5
+
+File: f7.txt
+Result: 7.06
+
+File: f8.txt
+Result: 8.71
+
+File: f9.txt
+Result: 7.52
+
+File: f10.txt
+Result: 6.55
+
+File: f1.txt
+Result: 7.52
+
+File: f2.txt
+Result: 5.51
+
+File: f3.txt
+Result: 6.15
