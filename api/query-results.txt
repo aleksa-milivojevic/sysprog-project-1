@@ -208,3 +208,24 @@ Result: 7.5
 
 File: f10.txt
 Result: 7.5
+
+File: f1.txt
+Result: 7.52
+
+File: f2.txt
+Result: 5.51
+
+File: f1.txt
+Result: 7.52
+
+File: f1.txt
+Result: 7.52
+
+File: f1.txt
+Result: 7.52
+
+File: f1.txt
+Result: 7.52
+
+File: f1.txt
+Result: 7.52

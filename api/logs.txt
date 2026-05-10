@@ -423,3 +423,53 @@ t' (taken from cache)
 [FileUtility] [10/05/2026 19:50:57] Results for file f10.txt saved
 
 [ApiService] [10/05/2026 19:51:28] SIGINT called
+[ApiService] [10/05/2026 19:58:43] Started up!
+[Listener] [10/05/2026 19:58:54] Heard a request
+[Thread 1] [10/05/2026 19:58:54] started for file: 'f1.txt'
+[Thread 1] [10/05/2026 19:58:54] CACHE MISS -> 'f1.txt' (sending API request)
+[CACHE] [10/05/2026 19:58:54] Added to cache f1.txt
+[Thread 1] [10/05/2026 19:58:54] Result stored in cache for query: 'f1.txt'
+[FileUtility] [10/05/2026 19:58:54] Results for file f1.txt saved
+[Listener] [10/05/2026 19:59:48] Heard a request
+[Thread 2] [10/05/2026 19:59:48] started for file: 'f2.txt'
+[Thread 2] [10/05/2026 19:59:48] CACHE MISS -> 'f2.txt' (sending API request)
+[CACHE] [10/05/2026 19:59:48] Added to cache f2.txt
+[Thread 2] [10/05/2026 19:59:48] Result stored in cache for query: 'f2.txt'
+[FileUtility] [10/05/2026 19:59:48] Results for file f2.txt saved
+
+[ApiService] [10/05/2026 20:17:02] SIGINT called
+[ApiService] [10/05/2026 20:19:13] Started up!
+[Listener] [10/05/2026 20:19:21] Heard a request
+[Thread 1] [10/05/2026 20:19:21] started for file: 'f1.txt'
+[Thread 1] [10/05/2026 20:19:21] CACHE MISS -> 'f1.txt' (sending API request)
+[CACHE] [10/05/2026 20:19:21] Added to cache f1.txt
+[Thread 1] [10/05/2026 20:19:21] Result stored in cache for query: 'f1.txt'
+[FileUtility] [10/05/2026 20:19:21] Results for file f1.txt saved
+[Listener] [10/05/2026 20:19:51] Heard a request
+[Thread 2] [10/05/2026 20:19:51] started for file: 'f1.txt'
+[CACHE] [10/05/2026 20:19:51] From cache f1.txt info is stale
+[CACHE] [10/05/2026 20:19:51] From cache f1.txt info is stale
+[Thread 2] [10/05/2026 20:19:51] CACHE MISS -> 'f1.txt' (sending API request)
+[CACHE] [10/05/2026 20:19:51] Overwritten in cache f1.txt
+[Thread 2] [10/05/2026 20:19:51] Result stored in cache for query: 'f1.txt'
+[FileUtility] [10/05/2026 20:19:51] Results for file f1.txt saved
+[Listener] [10/05/2026 20:20:12] Heard a request
+[Thread 3] [10/05/2026 20:20:12] started for file: 'f1.txt'
+[CACHE] [10/05/2026 20:20:12] From cache f1.txt info is stale
+[CACHE] [10/05/2026 20:20:12] From cache f1.txt info is stale
+[Thread 3] [10/05/2026 20:20:12] CACHE MISS -> 'f1.txt' (sending API request)
+[CACHE] [10/05/2026 20:20:12] Overwritten in cache f1.txt
+[Thread 3] [10/05/2026 20:20:12] Result stored in cache for query: 'f1.txt'
+[FileUtility] [10/05/2026 20:20:12] Results for file f1.txt saved
+[Listener] [10/05/2026 20:20:15] Heard a request
+[Thread 4] [10/05/2026 20:20:15] started for file: 'f1.txt'
+[CACHE] [10/05/2026 20:20:15] Read from cache f1.txt
+[Thread 4] [10/05/2026 20:20:15] CACHE HIT  -> 'f1.txt' (taken from cache)
+[FileUtility] [10/05/2026 20:20:15] Results for file f1.txt saved
+[Listener] [10/05/2026 20:20:19] Heard a request
+[Thread 5] [10/05/2026 20:20:19] started for file: 'f1.txt'
+[CACHE] [10/05/2026 20:20:19] Read from cache f1.txt
+[Thread 5] [10/05/2026 20:20:19] CACHE HIT  -> 'f1.txt' (taken from cache)
+[FileUtility] [10/05/2026 20:20:19] Results for file f1.txt saved
+
+[ApiService] [10/05/2026 20:20:38] SIGINT called
