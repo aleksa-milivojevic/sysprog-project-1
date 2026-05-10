@@ -48,7 +48,6 @@ namespace ProjectServer
             });
         }
 
-        // dodaj ogranicenje za broj istovremenih thread-ova
         public void Start() {
             Console.WriteLine("[Server] Server is up");
 
@@ -56,6 +55,10 @@ namespace ProjectServer
             _shutDownThread.Start();
 
             while(!ShutDownRequested) {
+
+                while (threads.Count >= 50)
+                    Thread.Sleep(500);
+
                 _sem.Wait();
                 Console.WriteLine("[Main Thread] Waited for _sem");
 

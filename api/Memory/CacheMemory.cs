@@ -20,12 +20,17 @@ namespace Memory
 
         public bool Get(string key, out JObject value) {
             if (_cacheMap.TryGetValue(key, out var val)) {
-                _lruList[key] = DateTime.Now.TimeOfDay;
+                if (DateTime.Now.TimeOfDay - _lruList[key] > new TimeSpan(0, 0, 10)) {
+                    _logger.Log($"[CACHE] [{DateTime.Now}] From cache {key} info is stale");
+                    value = new JObject();
+                    return false;
+                }
+                _lruList[key] = DateTime.Now.TimeOfDay;  // ako treba da se ne refresuje timespan za podatak u cache, samo se obrise ovo
                 value = val;
                 _logger.Log($"[CACHE] [{DateTime.Now}] Read from cache {key}");
                 return true;
             }
-            value = new JObject();;
+            value = new JObject();
             return false;
         }
 
