@@ -2,95 +2,208 @@ using Utility;
 using Memory;
 using Newtonsoft.Json.Linq;
 using System.Text;
+using System.Net;
+using System.Threading;
+using System.Runtime.InteropServices;
 
 namespace Services
 {
-    public class ApiService {
-        private string _baseUrl;
+    class ApiService {
 
-        private HttpClient _client;
+        private readonly HttpListener _listener;
+        
+        private readonly string _hostUrl = "http://localhost:5134/";
+
+        private List<Thread> _threads;
+
+        private bool ShutDownRequested = false;
+
+        private SemaphoreSlim _sem, _reqSem;
+
+        private List<HttpListenerContext> _requests;
+
+        private Thread _listenerThread;
+
+        private Thread _shutDownThread;
+
+        private readonly Logger _logger;
 
         private readonly CacheMemory _cache;
 
         private readonly object _cacheLock;
 
-        private readonly Logger _logger;
+        private HttpClient _client;
 
-        public ApiService(HttpClient client, string url) {
-            _baseUrl = url;
-            _client = client;
-            _cacheLock = new object();
-            _cache  = new CacheMemory();
+        private string _baseUrl = "http://localhost:5182/";
+
+        public ApiService() {
+            _listener = new HttpListener();
+            _listener.Prefixes.Add(_hostUrl);
+            _threads = new List<Thread>();
+            _sem = new SemaphoreSlim(100, 100);
+            _reqSem = new SemaphoreSlim(0);
+            _requests = new List<HttpListenerContext>();
             _logger = new Logger();
+            _cache = new CacheMemory();
+            _cacheLock = new object();
+            _client = new HttpClient();
+
+            _listenerThread = new Thread(() => {
+                _listener.Start();
+                
+                while (!ShutDownRequested) {
+                    HttpListenerContext context = _listener.GetContext();
+                    _requests.Add(context);
+                    _reqSem.Release();
+                    _logger.Log($"[Listener] [{DateTime.Now}] Heard a request");
+                }
+            });
+
+            _shutDownThread = new Thread(() => {
+                GracefulShutdown();
+            });
         }
 
-        public List<JObject> Fetch(List<string> fileNames) {
-            List<JObject> results = new List<JObject>(fileNames.Count);
-            List<Thread> threads = new List<Thread>(fileNames.Count);
+        public void Start() {
+            _logger.Log($"[ApiService] [{DateTime.Now}] Started up!");
 
-            for (int i = 0; i < fileNames.Count; i++)
-            {
-                int threadIndex = i;
-                string file = fileNames[i];
+            _listenerThread.Start();
+            _shutDownThread.Start();
 
-                threads.Add(new Thread(() => {
-                    _logger.Log($"[Thread {threadIndex + 1}] [{DateTime.Now}] started for file: '{file}'");
-                    JObject cacheHit;
+            while(!ShutDownRequested) {
 
-                    if (_cache.Get(file, out cacheHit)) {
-                        _logger.Log($"[Thread {threadIndex + 1}] [{DateTime.Now}] CACHE HIT  -> '{file}' (taken from cache)");
-                        results.Add(cacheHit);
-                        return;
-                    }
+                while (_threads.Count >= 50)
+                    Thread.Sleep(500);
 
-                    Monitor.Enter(_cacheLock);
+                _sem.Wait();
 
-                    if (_cache.Get(file, out cacheHit)) {
-                        _logger.Log($"[Thread {threadIndex + 1}] [{DateTime.Now}] CACHE HIT  -> '{file}' (taken from cache)");
-                        results.Add(cacheHit);
-                        return;
-                    }
+                _reqSem.Wait();
+                HttpListenerRequest request = _requests[0].Request;
+                HttpListenerResponse response = _requests[0].Response;
+                _requests.RemoveAt(0);
 
-                    _logger.Log($"[Thread {threadIndex + 1}] [{DateTime.Now}] CACHE MISS -> '{file}' (sending API request)");
+                if (request.HttpMethod != "GET") {
+                    _logger.Log($"[ApiService] [{DateTime.Now}] Discarded a non-get http request...");
+                    continue;
+                }
 
-                    string url = $"{_baseUrl}{file}";
+                Thread thread = new Thread(() => {
+                    RequestHandle(request, response, _threads.Count);
+                });
 
-                    try {
-                        HttpResponseMessage response = _client.GetAsync(url).Result;
-                        string body = response.Content.ReadAsStringAsync().Result;
-                        JObject result = JObject.Parse(body);
+                _threads.Add(thread);
+                thread.Start();
 
-                        _cache.Set(file, result);
-                        _logger.Log($"[Thread {threadIndex + 1}] [{DateTime.Now}] Result stored in cache for query: '{file}'");
-
-                        results.Add(result);
-                    }
-                    catch (Exception ex) {
-                        _logger.Log($"[Thread {threadIndex + 1}] [{DateTime.Now}] Error while fetching file '{file}': {ex.Message}");
-                        results.Add(new JObject());
-                    }
-                    finally {
-                        Monitor.Exit(_cacheLock);
-                    }
-                }));
-
-                threads[threadIndex].Start();
             }
 
-            foreach (Thread thread in threads) {
-                thread.Join();
+            _shutDownThread.Join();
+        }
+
+        private void Respond(string file, JObject result, HttpListenerResponse response) {
+            FileUtility writer = new FileUtility();
+            byte[] buffer;
+            if (!result.HasValues) {
+                buffer = System.Text.Encoding.UTF8.GetBytes($"Something went wrong");
+            }
+            else {
+                buffer = System.Text.Encoding.UTF8.GetBytes($"Avarage word length: {result["result"]}");
+            }
+            System.IO.Stream output = response.OutputStream;
+            output.Write(buffer, 0, buffer.Length);
+            output.Close();
+            writer.Write(file, result);
+        }
+
+        private void RequestHandle(HttpListenerRequest request, HttpListenerResponse response, int threadIndex) {
+            var requestUrl = request.Url.OriginalString;
+            int offset = _hostUrl.Length;
+            var file = requestUrl.Substring(offset);
+
+            if (file == null) {
+                byte[] buffer = System.Text.Encoding.UTF8.GetBytes("File not specified");
+                System.IO.Stream output = response.OutputStream;
+                output.Write(buffer, 0, buffer.Length);
+                output.Close();
+                return;
+            }
+            
+            _logger.Log($"[Thread {threadIndex}] [{DateTime.Now}] started for file: '{file}'");
+            JObject cacheHit;
+
+            if (_cache.Get(file, out cacheHit)) {
+                _logger.Log($"[Thread {threadIndex}] [{DateTime.Now}] CACHE HIT  -> '{file}' (taken from cache)");
+                Respond(file, cacheHit, response);
+                return;
             }
 
-            return results;
+            Monitor.Enter(_cacheLock);
+
+            if (_cache.Get(file, out cacheHit)) {
+                _logger.Log($"[Thread {threadIndex}] [{DateTime.Now}] CACHE HIT  -> '{file}' (taken from cache)");
+                Respond(file, cacheHit, response);
+                return;
+            }
+
+            _logger.Log($"[Thread {threadIndex}] [{DateTime.Now}] CACHE MISS -> '{file}' (sending API request)");
+
+            string url = $"{_baseUrl}{file}";
+
+            try {
+                HttpResponseMessage serverResponse = _client.GetAsync(url).Result;
+                string body = serverResponse.Content.ReadAsStringAsync().Result;
+                JObject result = JObject.Parse(body);
+
+                _cache.Set(file, result);
+                _logger.Log($"[Thread {threadIndex}] [{DateTime.Now}] Result stored in cache for query: '{file}'");
+
+                Respond(file, result, response);
+            }
+            catch (Exception ex) {
+                _logger.Log($"[Thread {threadIndex}] [{DateTime.Now}] Error while fetching file '{file}': {ex.Message}");
+                Respond(file, new JObject(), response);
+            }
+            finally {
+                Monitor.Exit(_cacheLock);
+            }
+
+            _sem.Release();
         }
 
         public void CheckCache() {
             StringBuilder log = new StringBuilder();
-            log.Append($"\n[Cache] [{DateTime.Now}] Currently in cache: {_cache.Count()} file(s).\n");
+            log.Append($"\n[ApiService] [{DateTime.Now}] Currently in cache: {_cache.Count()} file(s).\n");
             foreach (var key in _cache.Keys()) {
                 log.Append($"  -> '{key}'\n");
             }
             _logger.Log(log.ToString());
+        }
+        
+        private void GracefulShutdown() {
+            var waitForExit = new ManualResetEventSlim(false);
+            
+            PosixSignalRegistration.Create(PosixSignal.SIGINT, context => {
+                _logger.Log($"\n[ApiService] [{DateTime.Now}] SIGINT called");
+                Console.WriteLine($"[ApiService] [{DateTime.Now}] Shutting down gracefuly...");
+
+                ShutDownRequested = true;
+
+                _listenerThread.Join(100);
+
+                foreach(var request in _requests) {
+                    byte[] buffer = System.Text.Encoding.UTF8.GetBytes("Server shut down");
+                    System.IO.Stream output = request.Response.OutputStream;
+                    output.Write(buffer, 0, buffer.Length);
+                    output.Close();
+                }
+       
+                foreach (var thread in _threads) {
+                    thread.Join(5000);
+                }
+
+                waitForExit.Set();
+            });
+
+            waitForExit.Wait();
         }
     }
 }

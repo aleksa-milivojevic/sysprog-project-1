@@ -13,31 +13,27 @@ namespace Utility
             _writeLock = new object();
         }
 
-        public void WriteAll(List<string> files, List<JObject> results) {
+        public void Write(string file, JObject result) {
             string path = $"query-results.txt";
-            for (int i = 0; i < files.Count; i++) {
-                if (!results[i].HasValues) {
-                    _logger.Log($"[FileUtility] [{DateTime.Now}] Result null for file {files[i]}");
-                    continue;
-                }
-
-                Monitor.Enter(_writeLock);
-                string content = $"\nFile: {files[i]}\n"  +
-                                 $"Result: {results[i]["result"]}\n";
-                try {
-                    File.AppendAllText(path, content);
-                }
-                catch(Exception ex) {
-                    _logger.Log($"[FileUtility] [{DateTime.Now}] Error while writing to file: {ex.Message}");
-                }
-                finally {
-                    Monitor.Exit(_writeLock);
-                }
-
-                _logger.Log($"[FileUtility] [{DateTime.Now}] Results for file {files[i]} saved");
+            if (!result.HasValues) {
+                _logger.Log($"[FileUtility] [{DateTime.Now}] Result null for file {file}");
+                return;
             }
 
-            _logger.Log($"[FileUtility] [{DateTime.Now}] All results saved");
+            Monitor.Enter(_writeLock);
+            string content = $"\nFile: {file}\n"  +
+                                $"Result: {result["result"]}\n";
+            try {
+                File.AppendAllText(path, content);
+            }
+            catch(Exception ex) {
+                _logger.Log($"[FileUtility] [{DateTime.Now}] Error while writing to file: {ex.Message}");
+            }
+            finally {
+                Monitor.Exit(_writeLock);
+            }
+
+            _logger.Log($"[FileUtility] [{DateTime.Now}] Results for file {file} saved");
         }
     }
 }

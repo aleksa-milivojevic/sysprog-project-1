@@ -4,10 +4,9 @@ namespace Utility
 
         private string _logFile;
 
-        private readonly object _logLock;
+        private static readonly object _logLock = new object();
 
         public Logger() {
-            _logLock = new object();
             _logFile = "logs.txt";
         }
 

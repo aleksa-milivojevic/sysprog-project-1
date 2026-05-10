@@ -56,7 +56,7 @@ namespace ProjectServer
 
             while(!ShutDownRequested) {
 
-                while (threads.Count >= 50)
+                while (_threads.Count >= 50)
                     Thread.Sleep(500);
 
                 _sem.Wait();

@@ -2,38 +2,43 @@ using System.Net.Http;
 using Utility;
 using Services;
 using Newtonsoft.Json.Linq;
+using Microsoft.AspNetCore.Builder;
 
 namespace MainSpace
 {
     public class Program
     {
         static void Main(string[] args) {
-            HttpClient client = new HttpClient();
-            string url = "http://localhost:5182/";
 
-            ApiService service = new ApiService(client, url);
+            ApiService service = new ApiService();
+            service.Start();
 
-            FileUtility writer = new FileUtility();
+            // HttpClient client = new HttpClient();
+            // string url = "http://localhost:5182/";
 
-            List<string> files = new List<string>();
-            for (int i = 1; i <= 10; i++) {
-                files.Add($"f{i}.txt");                
-            }
+            // ApiService service = new ApiService(client, url);
 
-            List<JObject> results = service.Fetch(files);
+            // FileUtility writer = new FileUtility();
 
-            writer.WriteAll(files, results);
+            // List<string> files = new List<string>();
+            // for (int i = 1; i <= 10; i++) {
+            //     files.Add($"f{i}.txt");                
+            // }
 
-            files.Clear();
+            // List<JObject> results = service.Fetch(files);
 
-            for (int i = 1; i <= 3; i++)
-                files.Add($"f{i}.txt");
+            // writer.WriteAll(files, results);
 
-            results = service.Fetch(files);
+            // files.Clear();
 
-            writer.WriteAll(files, results);
+            // for (int i = 1; i <= 3; i++)
+            //     files.Add($"f{i}.txt");
+
+            // results = service.Fetch(files);
+
+            // writer.WriteAll(files, results);
             
-            service.CheckCache();
+            // service.CheckCache();
         }
     }
 }
