@@ -42,3 +42,184 @@
 [Server] [10/05/2026 23:18:42] Error: Thread unjoinable - Thread has not been started.
 [Server] [10/05/2026 23:18:42] Error: Thread unjoinable - Thread has not been started.
 [Server] [10/05/2026 23:18:42] Error: Thread unjoinable - Thread has not been started.
+[Server] [5/21/2026 4:16:07 PM] Server is up!
+[Server] [5/21/2026 4:16:07 PM] Waited for _sem
+[ServerListener] [5/21/2026 4:20:10 PM] Heard a request
+[Server] [5/21/2026 4:20:10 PM] Waited for _reqSem
+[Server] [5/21/2026 4:20:10 PM] Waited for _sem
+[Server] [5/22/2026 7:28:25 AM] Server is up!
+[Server] [5/22/2026 7:28:25 AM] Waited for _sem
+[Server] [5/22/2026 7:28:48 AM] Waited for _reqSem
+[ServerListener] [5/22/2026 7:28:48 AM] Heard a request
+[Server] [5/22/2026 7:28:48 AM] Waited for _sem
+[Server] [5/22/2026 7:32:57 AM] Server is up!
+[Server] [5/22/2026 7:32:57 AM] Waited for _sem
+[ServerListener] [5/22/2026 7:33:20 AM] Heard a request
+[Server] [5/22/2026 7:33:20 AM] Waited for _reqSem
+[Server] [5/22/2026 7:33:20 AM] Waited for _sem
+[ServerListener] [5/22/2026 7:33:20 AM] Heard a request
+[Server] [5/22/2026 7:33:20 AM] Waited for _reqSem
+[Server] [5/22/2026 7:33:20 AM] Waited for _sem
+[ServerListener] [5/22/2026 7:33:20 AM] Heard a request
+[Server] [5/22/2026 7:33:20 AM] Waited for _reqSem
+[Server] [5/22/2026 7:33:20 AM] Waited for _sem
+[ServerListener] [5/22/2026 7:33:20 AM] Heard a request
+[Server] [5/22/2026 7:33:20 AM] Waited for _reqSem
+[Server] [5/22/2026 7:33:20 AM] Waited for _sem
+[ServerListener] [5/22/2026 7:33:20 AM] Heard a request
+[Server] [5/22/2026 7:33:20 AM] Waited for _reqSem
+[Server] [5/22/2026 7:33:20 AM] Waited for _sem
+[ServerListener] [5/22/2026 7:33:20 AM] Heard a request
+[Server] [5/22/2026 7:33:20 AM] Waited for _reqSem
+[Server] [5/22/2026 7:33:20 AM] Waited for _sem
+[ServerListener] [5/22/2026 7:33:20 AM] Heard a request
+[Server] [5/22/2026 7:33:20 AM] Waited for _reqSem
+[Server] [5/22/2026 7:33:20 AM] Waited for _sem
+[ServerListener] [5/22/2026 7:33:20 AM] Heard a request
+[Server] [5/22/2026 7:33:20 AM] Waited for _reqSem
+[Server] [5/22/2026 7:33:20 AM] Waited for _sem
+[ServerListener] [5/22/2026 7:33:20 AM] Heard a request
+[Server] [5/22/2026 7:33:20 AM] Waited for _reqSem
+[Server] [5/22/2026 7:33:20 AM] Waited for _sem
+[ServerListener] [5/22/2026 7:33:20 AM] Heard a request
+[Server] [5/22/2026 7:33:20 AM] Waited for _reqSem
+[Server] [5/22/2026 7:33:20 AM] Waited for _sem
+[Server] [5/22/2026 7:35:54 AM] Waited for _reqSem
+[ServerListener] [5/22/2026 7:35:54 AM] Heard a request
+[Server] [5/22/2026 7:35:54 AM] Waited for _sem
+[ServerListener] [5/22/2026 7:35:54 AM] Heard a request
+[Server] [5/22/2026 7:35:54 AM] Waited for _reqSem
+[Server] [5/22/2026 7:35:54 AM] Waited for _sem
+[ServerListener] [5/22/2026 7:35:54 AM] Heard a request
+[Server] [5/22/2026 7:35:54 AM] Waited for _reqSem
+[Server] [5/22/2026 7:35:54 AM] Waited for _sem
+[ServerListener] [5/22/2026 7:35:54 AM] Heard a request
+[Server] [5/22/2026 7:35:54 AM] Waited for _reqSem
+[Server] [5/22/2026 7:35:54 AM] Waited for _sem
+[ServerListener] [5/22/2026 7:35:54 AM] Heard a request
+[Server] [5/22/2026 7:35:54 AM] Waited for _reqSem
+[Server] [5/22/2026 7:35:54 AM] Waited for _sem
+[ServerListener] [5/22/2026 7:35:54 AM] Heard a request
+[Server] [5/22/2026 7:35:54 AM] Waited for _reqSem
+[Server] [5/22/2026 7:35:54 AM] Waited for _sem
+[ServerListener] [5/22/2026 7:35:54 AM] Heard a request
+[Server] [5/22/2026 7:35:54 AM] Waited for _reqSem
+[Server] [5/22/2026 7:35:54 AM] Waited for _sem
+[ServerListener] [5/22/2026 7:35:54 AM] Heard a request
+[Server] [5/22/2026 7:35:54 AM] Waited for _reqSem
+[Server] [5/22/2026 7:35:54 AM] Waited for _sem
+[ServerListener] [5/22/2026 7:35:54 AM] Heard a request
+[Server] [5/22/2026 7:35:54 AM] Waited for _reqSem
+[Server] [5/22/2026 7:35:54 AM] Waited for _sem
+[ServerListener] [5/22/2026 7:35:54 AM] Heard a request
+[Server] [5/22/2026 7:35:54 AM] Waited for _reqSem
+[Server] [5/22/2026 7:35:54 AM] Waited for _sem
+
+[Server] [5/22/2026 7:36:11 AM] SIGINT called
+[Server] [5/22/2026 7:36:11 AM] Shutting down gracefuly...
+[Server] [5/22/2026 7:36:12 AM] Error: Thread unjoinable - Thread has not been started.
+[Server] [5/22/2026 7:36:12 AM] Error: Thread unjoinable - Thread has not been started.
+[Server] [5/22/2026 7:36:12 AM] Error: Thread unjoinable - Thread has not been started.
+[Server] [5/22/2026 7:36:12 AM] Error: Thread unjoinable - Thread has not been started.
+[Server] [5/22/2026 7:36:12 AM] Error: Thread unjoinable - Thread has not been started.
+[Server] [5/22/2026 7:36:12 AM] Error: Thread unjoinable - Thread has not been started.
+[Server] [5/22/2026 7:36:12 AM] Error: Thread unjoinable - Thread has not been started.
+[Server] [5/22/2026 7:36:12 AM] Error: Thread unjoinable - Thread has not been started.
+[Server] [5/22/2026 7:36:12 AM] Error: Thread unjoinable - Thread has not been started.
+[Server] [5/22/2026 8:49:47 AM] Server is up!
+[Server] [5/22/2026 8:49:47 AM] Waited for _sem
+[ServerListener] [5/22/2026 8:50:07 AM] Heard a request
+[Server] [5/22/2026 8:50:07 AM] Waited for _reqSem
+[Server] [5/22/2026 8:50:07 AM] Waited for _sem
+[ServerListener] [5/22/2026 8:50:07 AM] Heard a request
+[Server] [5/22/2026 8:50:07 AM] Waited for _reqSem
+[Server] [5/22/2026 8:50:07 AM] Waited for _sem
+[ServerListener] [5/22/2026 8:50:08 AM] Heard a request
+[Server] [5/22/2026 8:50:08 AM] Waited for _reqSem
+[Server] [5/22/2026 8:50:08 AM] Waited for _sem
+[ServerListener] [5/22/2026 8:50:08 AM] Heard a request
+[Server] [5/22/2026 8:50:08 AM] Waited for _reqSem
+[Server] [5/22/2026 8:50:08 AM] Waited for _sem
+[ServerListener] [5/22/2026 8:50:08 AM] Heard a request
+[Server] [5/22/2026 8:50:08 AM] Waited for _reqSem
+[Server] [5/22/2026 8:50:08 AM] Waited for _sem
+[ServerListener] [5/22/2026 8:50:08 AM] Heard a request
+[Server] [5/22/2026 8:50:08 AM] Waited for _reqSem
+[Server] [5/22/2026 8:50:08 AM] Waited for _sem
+[ServerListener] [5/22/2026 8:50:08 AM] Heard a request
+[Server] [5/22/2026 8:50:08 AM] Waited for _reqSem
+[Server] [5/22/2026 8:50:08 AM] Waited for _sem
+[ServerListener] [5/22/2026 8:50:08 AM] Heard a request
+[Server] [5/22/2026 8:50:08 AM] Waited for _reqSem
+[Server] [5/22/2026 8:50:08 AM] Waited for _sem
+[ServerListener] [5/22/2026 8:50:08 AM] Heard a request
+[Server] [5/22/2026 8:50:08 AM] Waited for _reqSem
+[Server] [5/22/2026 8:50:08 AM] Waited for _sem
+[ServerListener] [5/22/2026 8:50:08 AM] Heard a request
+[Server] [5/22/2026 8:50:08 AM] Waited for _reqSem
+[Server] [5/22/2026 8:50:08 AM] Waited for _sem
+[ServerListener] [5/22/2026 8:51:11 AM] Heard a request
+[Server] [5/22/2026 8:51:11 AM] Waited for _reqSem
+[Server] [5/22/2026 8:51:11 AM] Waited for _sem
+[ServerListener] [5/22/2026 8:51:11 AM] Heard a request
+[Server] [5/22/2026 8:51:11 AM] Waited for _reqSem
+[Server] [5/22/2026 8:51:11 AM] Waited for _sem
+
+[Server] [5/22/2026 8:51:46 AM] SIGINT called
+[Server] [5/22/2026 8:51:46 AM] Shutting down gracefuly...
+[Server] [5/22/2026 8:51:46 AM] Error: Thread unjoinable - Thread has not been started.
+[Server] [5/22/2026 8:51:46 AM] Error: Thread unjoinable - Thread has not been started.
+[Server] [5/22/2026 8:51:46 AM] Error: Thread unjoinable - Thread has not been started.
+[Server] [5/22/2026 8:51:46 AM] Error: Thread unjoinable - Thread has not been started.
+[Server] [5/22/2026 8:51:46 AM] Error: Thread unjoinable - Thread has not been started.
+[Server] [5/22/2026 8:51:46 AM] Error: Thread unjoinable - Thread has not been started.
+[Server] [5/22/2026 8:51:46 AM] Error: Thread unjoinable - Thread has not been started.
+[Server] [5/22/2026 8:51:46 AM] Error: Thread unjoinable - Thread has not been started.
+[Server] [5/22/2026 8:51:46 AM] Error: Thread unjoinable - Thread has not been started.
+[Server] [5/22/2026 8:52:02 AM] Server is up!
+[Server] [5/22/2026 8:52:02 AM] Waited for _sem
+[ServerListener] [5/22/2026 8:52:12 AM] Heard a request
+[Server] [5/22/2026 8:52:12 AM] Waited for _reqSem
+[Server] [5/22/2026 8:52:12 AM] Waited for _sem
+[ServerListener] [5/22/2026 8:52:12 AM] Heard a request
+[Server] [5/22/2026 8:52:12 AM] Waited for _reqSem
+[Server] [5/22/2026 8:52:12 AM] Waited for _sem
+[ServerListener] [5/22/2026 8:52:12 AM] Heard a request
+[Server] [5/22/2026 8:52:12 AM] Waited for _reqSem
+[Server] [5/22/2026 8:52:12 AM] Waited for _sem
+[Server] [5/22/2026 8:52:13 AM] Waited for _reqSem
+[ServerListener] [5/22/2026 8:52:13 AM] Heard a request
+[Server] [5/22/2026 8:52:13 AM] Waited for _sem
+[ServerListener] [5/22/2026 8:52:13 AM] Heard a request
+[Server] [5/22/2026 8:52:13 AM] Waited for _reqSem
+[Server] [5/22/2026 8:52:13 AM] Waited for _sem
+[ServerListener] [5/22/2026 8:52:13 AM] Heard a request
+[Server] [5/22/2026 8:52:13 AM] Waited for _reqSem
+[Server] [5/22/2026 8:52:13 AM] Waited for _sem
+[ServerListener] [5/22/2026 8:52:13 AM] Heard a request
+[Server] [5/22/2026 8:52:13 AM] Waited for _reqSem
+[Server] [5/22/2026 8:52:13 AM] Waited for _sem
+[ServerListener] [5/22/2026 8:52:13 AM] Heard a request
+[Server] [5/22/2026 8:52:13 AM] Waited for _reqSem
+[Server] [5/22/2026 8:52:13 AM] Waited for _sem
+[ServerListener] [5/22/2026 8:52:13 AM] Heard a request
+[Server] [5/22/2026 8:52:13 AM] Waited for _reqSem
+[Server] [5/22/2026 8:52:13 AM] Waited for _sem
+[ServerListener] [5/22/2026 8:52:13 AM] Heard a request
+[Server] [5/22/2026 8:52:13 AM] Waited for _reqSem
+[Server] [5/22/2026 8:52:13 AM] Waited for _sem
+[ServerListener] [5/22/2026 8:55:29 AM] Heard a request
+[Server] [5/22/2026 8:55:29 AM] Waited for _reqSem
+[Server] [5/22/2026 8:55:29 AM] Waited for _sem
+
+[Server] [5/22/2026 9:02:55 AM] SIGINT called
+[Server] [5/22/2026 9:02:55 AM] Shutting down gracefuly...
+[Server] [5/22/2026 9:02:56 AM] Error: Thread unjoinable - Thread has not been started.
+[Server] [5/22/2026 9:02:56 AM] Error: Thread unjoinable - Thread has not been started.
+[Server] [5/22/2026 9:02:56 AM] Error: Thread unjoinable - Thread has not been started.
+[Server] [5/22/2026 9:02:56 AM] Error: Thread unjoinable - Thread has not been started.
+[Server] [5/22/2026 9:02:56 AM] Error: Thread unjoinable - Thread has not been started.
+[Server] [5/22/2026 9:02:56 AM] Error: Thread unjoinable - Thread has not been started.
+[Server] [5/22/2026 9:02:56 AM] Error: Thread unjoinable - Thread has not been started.
+[Server] [5/22/2026 9:02:56 AM] Error: Thread unjoinable - Thread has not been started.
+[Server] [5/22/2026 9:02:56 AM] Error: Thread unjoinable - Thread has not been started.

@@ -312,3 +312,1773 @@
 
 [ApiService] [10/05/2026 23:18:50] SIGINT called
 [ApiService] [10/05/2026 23:18:50] Error: Thread unjoinable - Thread has not been started.
+[ApiService] [5/21/2026 4:16:44 PM] Started up!
+[Listener] [5/21/2026 4:20:10 PM] Heard a request
+[Listener] [5/21/2026 4:20:10 PM] Heard a request
+[Listener] [5/21/2026 4:20:10 PM] Heard a request
+[Listener] [5/21/2026 4:20:10 PM] Heard a request
+[Thread] [5/21/2026 4:20:10 PM] started for file: 'f2.txt'
+[Thread] [5/21/2026 4:20:10 PM] started for file: 'f1.txt'
+[Listener] [5/21/2026 4:20:10 PM] Heard a request
+[Listener] [5/21/2026 4:20:10 PM] Heard a request
+[Listener] [5/21/2026 4:20:10 PM] Heard a request
+[Listener] [5/21/2026 4:20:10 PM] Heard a request
+[Listener] [5/21/2026 4:20:10 PM] Heard a request
+[Listener] [5/21/2026 4:20:10 PM] Heard a request
+[Listener] [5/21/2026 4:20:10 PM] Heard a request
+[Listener] [5/21/2026 4:20:10 PM] Heard a request
+[Listener] [5/21/2026 4:20:10 PM] Heard a request
+[Listener] [5/21/2026 4:20:10 PM] Heard a request
+[Listener] [5/21/2026 4:20:10 PM] Heard a request
+[Listener] [5/21/2026 4:20:10 PM] Heard a request
+[Listener] [5/21/2026 4:20:10 PM] Heard a request
+[Listener] [5/21/2026 4:20:10 PM] Heard a request
+[Thread] [5/21/2026 4:20:10 PM] CACHE MISS -> 'f2.txt' (sending API request)
+[Thread] [5/21/2026 4:20:10 PM] started for file: 'f3.txt'
+[Listener] [5/21/2026 4:20:10 PM] Heard a request
+[Listener] [5/21/2026 4:20:10 PM] Heard a request
+[Thread] [5/21/2026 4:20:10 PM] started for file: 'f1.txt'
+[Thread] [5/21/2026 4:20:10 PM] started for file: 'f2.txt'
+[Thread] [5/21/2026 4:20:10 PM] started for file: 'f3.txt'
+[Thread] [5/21/2026 4:20:10 PM] started for file: 'f1.txt'
+[Thread] [5/21/2026 4:20:10 PM] started for file: 'f2.txt'
+[Listener] [5/21/2026 4:20:10 PM] Heard a request
+[Thread] [5/21/2026 4:20:10 PM] started for file: 'f3.txt'
+[Thread] [5/21/2026 4:20:10 PM] started for file: 'f4.txt'
+[Listener] [5/21/2026 4:20:10 PM] Heard a request
+[Listener] [5/21/2026 4:20:10 PM] Heard a request
+[Listener] [5/21/2026 4:20:10 PM] Heard a request
+[Listener] [5/21/2026 4:20:10 PM] Heard a request
+[Listener] [5/21/2026 4:20:10 PM] Heard a request
+[Listener] [5/21/2026 4:20:10 PM] Heard a request
+[Listener] [5/21/2026 4:20:10 PM] Heard a request
+[Listener] [5/21/2026 4:20:10 PM] Heard a request
+[Listener] [5/21/2026 4:20:10 PM] Heard a request
+[Thread] [5/21/2026 4:20:23 PM] Error while fetching file 'f2.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:23 PM] Result null for file f2.txt
+[Thread] [5/21/2026 4:20:23 PM] CACHE MISS -> 'f1.txt' (sending API request)
+[Thread] [5/21/2026 4:20:23 PM] Error while fetching file 'f1.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:23 PM] Result null for file f1.txt
+[Thread] [5/21/2026 4:20:23 PM] CACHE MISS -> 'f3.txt' (sending API request)
+[Thread] [5/21/2026 4:20:23 PM] Error while fetching file 'f3.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:23 PM] Result null for file f3.txt
+[Thread] [5/21/2026 4:20:23 PM] CACHE MISS -> 'f1.txt' (sending API request)
+[Thread] [5/21/2026 4:20:23 PM] Error while fetching file 'f1.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:23 PM] Result null for file f1.txt
+[Thread] [5/21/2026 4:20:23 PM] CACHE MISS -> 'f2.txt' (sending API request)
+[Thread] [5/21/2026 4:20:23 PM] Error while fetching file 'f2.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:23 PM] Result null for file f2.txt
+[Thread] [5/21/2026 4:20:23 PM] CACHE MISS -> 'f3.txt' (sending API request)
+[Thread] [5/21/2026 4:20:23 PM] Error while fetching file 'f3.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:23 PM] Result null for file f3.txt
+[Thread] [5/21/2026 4:20:23 PM] CACHE MISS -> 'f1.txt' (sending API request)
+[Thread] [5/21/2026 4:20:23 PM] Error while fetching file 'f1.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:23 PM] Result null for file f1.txt
+[Thread] [5/21/2026 4:20:23 PM] CACHE MISS -> 'f2.txt' (sending API request)
+[Thread] [5/21/2026 4:20:23 PM] Error while fetching file 'f2.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:23 PM] Result null for file f2.txt
+[Thread] [5/21/2026 4:20:23 PM] CACHE MISS -> 'f3.txt' (sending API request)
+[Thread] [5/21/2026 4:20:23 PM] Error while fetching file 'f3.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:23 PM] Result null for file f3.txt
+[Thread] [5/21/2026 4:20:23 PM] CACHE MISS -> 'f4.txt' (sending API request)
+[Thread] [5/21/2026 4:20:23 PM] Error while fetching file 'f4.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:23 PM] Result null for file f4.txt
+[Thread] [5/21/2026 4:20:23 PM] started for file: 'f4.txt'
+[Thread] [5/21/2026 4:20:23 PM] CACHE MISS -> 'f4.txt' (sending API request)
+[Thread] [5/21/2026 4:20:23 PM] started for file: 'f5.txt'
+[Thread] [5/21/2026 4:20:23 PM] started for file: 'f4.txt'
+[Thread] [5/21/2026 4:20:23 PM] started for file: 'f5.txt'
+[Thread] [5/21/2026 4:20:23 PM] started for file: 'f5.txt'
+[Thread] [5/21/2026 4:20:23 PM] started for file: 'f6.txt'
+[Thread] [5/21/2026 4:20:23 PM] Error while fetching file 'f4.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:23 PM] Result null for file f4.txt
+[Thread] [5/21/2026 4:20:23 PM] CACHE MISS -> 'f5.txt' (sending API request)
+[Thread] [5/21/2026 4:20:23 PM] Error while fetching file 'f5.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[Thread] [5/21/2026 4:20:23 PM] started for file: 'f6.txt'
+[FileUtility] [5/21/2026 4:20:23 PM] Result null for file f5.txt
+[Thread] [5/21/2026 4:20:23 PM] CACHE MISS -> 'f4.txt' (sending API request)
+[Thread] [5/21/2026 4:20:23 PM] started for file: 'f6.txt'
+[Thread] [5/21/2026 4:20:23 PM] started for file: 'f7.txt'
+[Thread] [5/21/2026 4:20:23 PM] Error while fetching file 'f4.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[Thread] [5/21/2026 4:20:23 PM] started for file: 'f7.txt'
+[FileUtility] [5/21/2026 4:20:23 PM] Result null for file f4.txt
+[Thread] [5/21/2026 4:20:23 PM] CACHE MISS -> 'f5.txt' (sending API request)
+[Thread] [5/21/2026 4:20:23 PM] started for file: 'f7.txt'
+[Thread] [5/21/2026 4:20:23 PM] started for file: 'f8.txt'
+[Thread] [5/21/2026 4:20:23 PM] started for file: 'f8.txt'
+[Thread] [5/21/2026 4:20:23 PM] Error while fetching file 'f5.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:23 PM] Result null for file f5.txt
+[Thread] [5/21/2026 4:20:23 PM] CACHE MISS -> 'f5.txt' (sending API request)
+[Thread] [5/21/2026 4:20:23 PM] Error while fetching file 'f5.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:23 PM] Result null for file f5.txt
+[Thread] [5/21/2026 4:20:23 PM] CACHE MISS -> 'f6.txt' (sending API request)
+[Thread] [5/21/2026 4:20:23 PM] Error while fetching file 'f6.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:23 PM] Result null for file f6.txt
+[Thread] [5/21/2026 4:20:23 PM] CACHE MISS -> 'f6.txt' (sending API request)
+[Thread] [5/21/2026 4:20:23 PM] Error while fetching file 'f6.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:23 PM] Result null for file f6.txt
+[Thread] [5/21/2026 4:20:23 PM] CACHE MISS -> 'f6.txt' (sending API request)
+[Thread] [5/21/2026 4:20:23 PM] Error while fetching file 'f6.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:23 PM] Result null for file f6.txt
+[Thread] [5/21/2026 4:20:23 PM] CACHE MISS -> 'f7.txt' (sending API request)
+[Thread] [5/21/2026 4:20:23 PM] Error while fetching file 'f7.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:23 PM] Result null for file f7.txt
+[Thread] [5/21/2026 4:20:23 PM] CACHE MISS -> 'f7.txt' (sending API request)
+[Thread] [5/21/2026 4:20:23 PM] Error while fetching file 'f7.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:23 PM] Result null for file f7.txt
+[Thread] [5/21/2026 4:20:23 PM] CACHE MISS -> 'f7.txt' (sending API request)
+[Thread] [5/21/2026 4:20:23 PM] Error while fetching file 'f7.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:23 PM] Result null for file f7.txt
+[Thread] [5/21/2026 4:20:23 PM] CACHE MISS -> 'f8.txt' (sending API request)
+[Thread] [5/21/2026 4:20:23 PM] Error while fetching file 'f8.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:23 PM] Result null for file f8.txt
+[Thread] [5/21/2026 4:20:23 PM] CACHE MISS -> 'f8.txt' (sending API request)
+[Thread] [5/21/2026 4:20:23 PM] Error while fetching file 'f8.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:23 PM] Result null for file f8.txt
+[Thread] [5/21/2026 4:20:23 PM] started for file: 'f9.txt'
+[Thread] [5/21/2026 4:20:23 PM] CACHE MISS -> 'f9.txt' (sending API request)
+[Thread] [5/21/2026 4:20:23 PM] started for file: 'f9.txt'
+[Thread] [5/21/2026 4:20:23 PM] started for file: 'f9.txt'
+[Thread] [5/21/2026 4:20:23 PM] Error while fetching file 'f9.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:23 PM] Result null for file f9.txt
+[Thread] [5/21/2026 4:20:23 PM] CACHE MISS -> 'f9.txt' (sending API request)
+[Thread] [5/21/2026 4:20:23 PM] started for file: 'f8.txt'
+[Thread] [5/21/2026 4:20:23 PM] started for file: 'f10.txt'
+[Thread] [5/21/2026 4:20:23 PM] Error while fetching file 'f9.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:23 PM] Result null for file f9.txt
+[Thread] [5/21/2026 4:20:23 PM] CACHE MISS -> 'f9.txt' (sending API request)
+[Thread] [5/21/2026 4:20:23 PM] started for file: 'f10.txt'
+[Thread] [5/21/2026 4:20:23 PM] Error while fetching file 'f9.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[Thread] [5/21/2026 4:20:23 PM] started for file: 'f10.txt'
+[FileUtility] [5/21/2026 4:20:23 PM] Result null for file f9.txt
+[Thread] [5/21/2026 4:20:23 PM] CACHE MISS -> 'f8.txt' (sending API request)
+[Thread] [5/21/2026 4:20:23 PM] Error while fetching file 'f8.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:23 PM] Result null for file f8.txt
+[Thread] [5/21/2026 4:20:23 PM] CACHE MISS -> 'f10.txt' (sending API request)
+[Thread] [5/21/2026 4:20:23 PM] Error while fetching file 'f10.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:23 PM] Result null for file f10.txt
+[Thread] [5/21/2026 4:20:23 PM] CACHE MISS -> 'f10.txt' (sending API request)
+[Thread] [5/21/2026 4:20:23 PM] Error while fetching file 'f10.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:23 PM] Result null for file f10.txt
+[Thread] [5/21/2026 4:20:23 PM] CACHE MISS -> 'f10.txt' (sending API request)
+[Thread] [5/21/2026 4:20:23 PM] Error while fetching file 'f10.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:23 PM] Result null for file f10.txt
+[Listener] [5/21/2026 4:20:31 PM] Heard a request
+[Listener] [5/21/2026 4:20:31 PM] Heard a request
+[Thread] [5/21/2026 4:20:31 PM] started for file: 'f1.txt'
+[Thread] [5/21/2026 4:20:31 PM] CACHE MISS -> 'f1.txt' (sending API request)
+[Thread] [5/21/2026 4:20:31 PM] started for file: 'f1.txt'
+[Listener] [5/21/2026 4:20:31 PM] Heard a request
+[Thread] [5/21/2026 4:20:31 PM] Error while fetching file 'f1.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[Thread] [5/21/2026 4:20:31 PM] started for file: 'f1.txt'
+[FileUtility] [5/21/2026 4:20:31 PM] Result null for file f1.txt
+[Thread] [5/21/2026 4:20:31 PM] CACHE MISS -> 'f1.txt' (sending API request)
+[Listener] [5/21/2026 4:20:31 PM] Heard a request
+[Thread] [5/21/2026 4:20:31 PM] started for file: 'f2.txt'
+[Thread] [5/21/2026 4:20:31 PM] Error while fetching file 'f1.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:31 PM] Result null for file f1.txt
+[Listener] [5/21/2026 4:20:31 PM] Heard a request
+[Thread] [5/21/2026 4:20:31 PM] CACHE MISS -> 'f1.txt' (sending API request)
+[Thread] [5/21/2026 4:20:31 PM] started for file: 'f2.txt'
+[Listener] [5/21/2026 4:20:31 PM] Heard a request
+[Thread] [5/21/2026 4:20:31 PM] Error while fetching file 'f1.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:31 PM] Result null for file f1.txt
+[Thread] [5/21/2026 4:20:31 PM] CACHE MISS -> 'f2.txt' (sending API request)
+[Thread] [5/21/2026 4:20:31 PM] Error while fetching file 'f2.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:31 PM] Result null for file f2.txt
+[Thread] [5/21/2026 4:20:31 PM] started for file: 'f2.txt'
+[Thread] [5/21/2026 4:20:31 PM] CACHE MISS -> 'f2.txt' (sending API request)
+[Thread] [5/21/2026 4:20:31 PM] Error while fetching file 'f2.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:31 PM] Result null for file f2.txt
+[Thread] [5/21/2026 4:20:31 PM] CACHE MISS -> 'f2.txt' (sending API request)
+[Listener] [5/21/2026 4:20:31 PM] Heard a request
+[Thread] [5/21/2026 4:20:31 PM] Error while fetching file 'f2.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:31 PM] Result null for file f2.txt
+[Thread] [5/21/2026 4:20:31 PM] started for file: 'f3.txt'
+[Thread] [5/21/2026 4:20:31 PM] CACHE MISS -> 'f3.txt' (sending API request)
+[Thread] [5/21/2026 4:20:31 PM] Error while fetching file 'f3.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:31 PM] Result null for file f3.txt
+[Listener] [5/21/2026 4:20:31 PM] Heard a request
+[Thread] [5/21/2026 4:20:31 PM] started for file: 'f3.txt'
+[Thread] [5/21/2026 4:20:31 PM] CACHE MISS -> 'f3.txt' (sending API request)
+[Thread] [5/21/2026 4:20:31 PM] Error while fetching file 'f3.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:31 PM] Result null for file f3.txt
+[Listener] [5/21/2026 4:20:31 PM] Heard a request
+[Thread] [5/21/2026 4:20:31 PM] started for file: 'f3.txt'
+[Thread] [5/21/2026 4:20:31 PM] CACHE MISS -> 'f3.txt' (sending API request)
+[Listener] [5/21/2026 4:20:31 PM] Heard a request
+[Thread] [5/21/2026 4:20:31 PM] Error while fetching file 'f3.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:31 PM] Result null for file f3.txt
+[Thread] [5/21/2026 4:20:31 PM] started for file: 'f4.txt'
+[Thread] [5/21/2026 4:20:31 PM] CACHE MISS -> 'f4.txt' (sending API request)
+[Listener] [5/21/2026 4:20:31 PM] Heard a request
+[Thread] [5/21/2026 4:20:31 PM] started for file: 'f4.txt'
+[Thread] [5/21/2026 4:20:31 PM] Error while fetching file 'f4.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:31 PM] Result null for file f4.txt
+[Thread] [5/21/2026 4:20:31 PM] CACHE MISS -> 'f4.txt' (sending API request)
+[Thread] [5/21/2026 4:20:31 PM] Error while fetching file 'f4.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:31 PM] Result null for file f4.txt
+[Listener] [5/21/2026 4:20:31 PM] Heard a request
+[Thread] [5/21/2026 4:20:31 PM] started for file: 'f4.txt'
+[Listener] [5/21/2026 4:20:31 PM] Heard a request
+[Thread] [5/21/2026 4:20:31 PM] CACHE MISS -> 'f4.txt' (sending API request)
+[Thread] [5/21/2026 4:20:31 PM] Error while fetching file 'f4.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:31 PM] Result null for file f4.txt
+[Thread] [5/21/2026 4:20:31 PM] started for file: 'f5.txt'
+[Thread] [5/21/2026 4:20:31 PM] CACHE MISS -> 'f5.txt' (sending API request)
+[Thread] [5/21/2026 4:20:31 PM] Error while fetching file 'f5.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:31 PM] Result null for file f5.txt
+[Listener] [5/21/2026 4:20:31 PM] Heard a request
+[Listener] [5/21/2026 4:20:31 PM] Heard a request
+[Thread] [5/21/2026 4:20:31 PM] started for file: 'f5.txt'
+[Thread] [5/21/2026 4:20:31 PM] CACHE MISS -> 'f5.txt' (sending API request)
+[Listener] [5/21/2026 4:20:31 PM] Heard a request
+[Thread] [5/21/2026 4:20:31 PM] Error while fetching file 'f5.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[Thread] [5/21/2026 4:20:31 PM] started for file: 'f5.txt'
+[FileUtility] [5/21/2026 4:20:31 PM] Result null for file f5.txt
+[Listener] [5/21/2026 4:20:31 PM] Heard a request
+[Thread] [5/21/2026 4:20:31 PM] CACHE MISS -> 'f5.txt' (sending API request)
+[Thread] [5/21/2026 4:20:31 PM] started for file: 'f6.txt'
+[Thread] [5/21/2026 4:20:31 PM] Error while fetching file 'f5.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:31 PM] Result null for file f5.txt
+[Thread] [5/21/2026 4:20:31 PM] CACHE MISS -> 'f6.txt' (sending API request)
+[Thread] [5/21/2026 4:20:31 PM] started for file: 'f6.txt'
+[Listener] [5/21/2026 4:20:31 PM] Heard a request
+[Thread] [5/21/2026 4:20:31 PM] Error while fetching file 'f6.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:31 PM] Result null for file f6.txt
+[Listener] [5/21/2026 4:20:31 PM] Heard a request
+[Listener] [5/21/2026 4:20:31 PM] Heard a request
+[Thread] [5/21/2026 4:20:31 PM] CACHE MISS -> 'f6.txt' (sending API request)
+[Thread] [5/21/2026 4:20:31 PM] Error while fetching file 'f6.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:31 PM] Result null for file f6.txt
+[Thread] [5/21/2026 4:20:31 PM] started for file: 'f6.txt'
+[Thread] [5/21/2026 4:20:31 PM] CACHE MISS -> 'f6.txt' (sending API request)
+[Listener] [5/21/2026 4:20:31 PM] Heard a request
+[Thread] [5/21/2026 4:20:31 PM] started for file: 'f7.txt'
+[Thread] [5/21/2026 4:20:31 PM] started for file: 'f7.txt'
+[Listener] [5/21/2026 4:20:31 PM] Heard a request
+[Thread] [5/21/2026 4:20:31 PM] started for file: 'f7.txt'
+[Thread] [5/21/2026 4:20:31 PM] Error while fetching file 'f6.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:31 PM] Result null for file f6.txt
+[Thread] [5/21/2026 4:20:31 PM] CACHE MISS -> 'f7.txt' (sending API request)
+[Listener] [5/21/2026 4:20:31 PM] Heard a request
+[Listener] [5/21/2026 4:20:31 PM] Heard a request
+[Listener] [5/21/2026 4:20:31 PM] Heard a request
+[Thread] [5/21/2026 4:20:31 PM] started for file: 'f8.txt'
+[Thread] [5/21/2026 4:20:31 PM] Error while fetching file 'f7.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:31 PM] Result null for file f7.txt
+[Thread] [5/21/2026 4:20:31 PM] CACHE MISS -> 'f7.txt' (sending API request)
+[Thread] [5/21/2026 4:20:31 PM] started for file: 'f8.txt'
+[Thread] [5/21/2026 4:20:31 PM] Error while fetching file 'f7.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:31 PM] Result null for file f7.txt
+[Thread] [5/21/2026 4:20:31 PM] CACHE MISS -> 'f7.txt' (sending API request)
+[Thread] [5/21/2026 4:20:31 PM] started for file: 'f9.txt'
+[Thread] [5/21/2026 4:20:31 PM] Error while fetching file 'f7.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:31 PM] Result null for file f7.txt
+[Thread] [5/21/2026 4:20:31 PM] CACHE MISS -> 'f8.txt' (sending API request)
+[Thread] [5/21/2026 4:20:31 PM] started for file: 'f8.txt'
+[Thread] [5/21/2026 4:20:31 PM] Error while fetching file 'f8.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:31 PM] Result null for file f8.txt
+[Thread] [5/21/2026 4:20:31 PM] CACHE MISS -> 'f8.txt' (sending API request)
+[Thread] [5/21/2026 4:20:31 PM] Error while fetching file 'f8.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:31 PM] Result null for file f8.txt
+[Thread] [5/21/2026 4:20:31 PM] CACHE MISS -> 'f9.txt' (sending API request)
+[Listener] [5/21/2026 4:20:31 PM] Heard a request
+[Thread] [5/21/2026 4:20:31 PM] Error while fetching file 'f9.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:31 PM] Result null for file f9.txt
+[Thread] [5/21/2026 4:20:31 PM] CACHE MISS -> 'f8.txt' (sending API request)
+[Thread] [5/21/2026 4:20:31 PM] started for file: 'f9.txt'
+[Thread] [5/21/2026 4:20:31 PM] Error while fetching file 'f8.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:31 PM] Result null for file f8.txt
+[Thread] [5/21/2026 4:20:31 PM] CACHE MISS -> 'f9.txt' (sending API request)
+[Listener] [5/21/2026 4:20:31 PM] Heard a request
+[Listener] [5/21/2026 4:20:31 PM] Heard a request
+[Thread] [5/21/2026 4:20:31 PM] started for file: 'f9.txt'
+[Thread] [5/21/2026 4:20:31 PM] started for file: 'f10.txt'
+[Listener] [5/21/2026 4:20:31 PM] Heard a request
+[Thread] [5/21/2026 4:20:31 PM] Error while fetching file 'f9.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:31 PM] Result null for file f9.txt
+[Thread] [5/21/2026 4:20:31 PM] CACHE MISS -> 'f9.txt' (sending API request)
+[Listener] [5/21/2026 4:20:31 PM] Heard a request
+[Thread] [5/21/2026 4:20:31 PM] Error while fetching file 'f9.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:31 PM] Result null for file f9.txt
+[Thread] [5/21/2026 4:20:31 PM] CACHE MISS -> 'f10.txt' (sending API request)
+[Thread] [5/21/2026 4:20:31 PM] started for file: 'f10.txt'
+[Thread] [5/21/2026 4:20:31 PM] started for file: 'f10.txt'
+[Thread] [5/21/2026 4:20:31 PM] Error while fetching file 'f10.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:31 PM] Result null for file f10.txt
+[Thread] [5/21/2026 4:20:31 PM] CACHE MISS -> 'f10.txt' (sending API request)
+[Thread] [5/21/2026 4:20:31 PM] Error while fetching file 'f10.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:31 PM] Result null for file f10.txt
+[Thread] [5/21/2026 4:20:31 PM] CACHE MISS -> 'f10.txt' (sending API request)
+[Thread] [5/21/2026 4:20:31 PM] Error while fetching file 'f10.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:31 PM] Result null for file f10.txt
+[Listener] [5/21/2026 4:20:33 PM] Heard a request
+[Listener] [5/21/2026 4:20:33 PM] Heard a request
+[Thread] [5/21/2026 4:20:33 PM] started for file: 'f1.txt'
+[Thread] [5/21/2026 4:20:33 PM] CACHE MISS -> 'f1.txt' (sending API request)
+[Thread] [5/21/2026 4:20:33 PM] started for file: 'f1.txt'
+[Listener] [5/21/2026 4:20:33 PM] Heard a request
+[Thread] [5/21/2026 4:20:33 PM] started for file: 'f1.txt'
+[Thread] [5/21/2026 4:20:33 PM] Error while fetching file 'f1.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:33 PM] Result null for file f1.txt
+[Thread] [5/21/2026 4:20:33 PM] CACHE MISS -> 'f1.txt' (sending API request)
+[Thread] [5/21/2026 4:20:33 PM] Error while fetching file 'f1.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:33 PM] Result null for file f1.txt
+[Thread] [5/21/2026 4:20:33 PM] CACHE MISS -> 'f1.txt' (sending API request)
+[Thread] [5/21/2026 4:20:33 PM] Error while fetching file 'f1.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:33 PM] Result null for file f1.txt
+[Listener] [5/21/2026 4:20:33 PM] Heard a request
+[Thread] [5/21/2026 4:20:33 PM] started for file: 'f2.txt'
+[Thread] [5/21/2026 4:20:33 PM] CACHE MISS -> 'f2.txt' (sending API request)
+[Listener] [5/21/2026 4:20:33 PM] Heard a request
+[Thread] [5/21/2026 4:20:33 PM] Error while fetching file 'f2.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:33 PM] Result null for file f2.txt
+[Thread] [5/21/2026 4:20:33 PM] started for file: 'f2.txt'
+[Thread] [5/21/2026 4:20:33 PM] CACHE MISS -> 'f2.txt' (sending API request)
+[Thread] [5/21/2026 4:20:33 PM] Error while fetching file 'f2.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:33 PM] Result null for file f2.txt
+[Listener] [5/21/2026 4:20:33 PM] Heard a request
+[Thread] [5/21/2026 4:20:33 PM] started for file: 'f2.txt'
+[Thread] [5/21/2026 4:20:33 PM] CACHE MISS -> 'f2.txt' (sending API request)
+[Listener] [5/21/2026 4:20:33 PM] Heard a request
+[Thread] [5/21/2026 4:20:33 PM] started for file: 'f3.txt'
+[Thread] [5/21/2026 4:20:33 PM] Error while fetching file 'f2.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:33 PM] Result null for file f2.txt
+[Thread] [5/21/2026 4:20:33 PM] CACHE MISS -> 'f3.txt' (sending API request)
+[Listener] [5/21/2026 4:20:33 PM] Heard a request
+[Thread] [5/21/2026 4:20:33 PM] Error while fetching file 'f3.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[Thread] [5/21/2026 4:20:33 PM] started for file: 'f3.txt'
+[FileUtility] [5/21/2026 4:20:33 PM] Result null for file f3.txt
+[Thread] [5/21/2026 4:20:33 PM] CACHE MISS -> 'f3.txt' (sending API request)
+[Thread] [5/21/2026 4:20:33 PM] Error while fetching file 'f3.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:33 PM] Result null for file f3.txt
+[Listener] [5/21/2026 4:20:33 PM] Heard a request
+[Thread] [5/21/2026 4:20:33 PM] started for file: 'f3.txt'
+[Thread] [5/21/2026 4:20:33 PM] CACHE MISS -> 'f3.txt' (sending API request)
+[Thread] [5/21/2026 4:20:33 PM] Error while fetching file 'f3.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[Listener] [5/21/2026 4:20:33 PM] Heard a request
+[FileUtility] [5/21/2026 4:20:33 PM] Result null for file f3.txt
+[Listener] [5/21/2026 4:20:33 PM] Heard a request
+[Thread] [5/21/2026 4:20:33 PM] started for file: 'f4.txt'
+[Thread] [5/21/2026 4:20:33 PM] CACHE MISS -> 'f4.txt' (sending API request)
+[Thread] [5/21/2026 4:20:33 PM] started for file: 'f4.txt'
+[Listener] [5/21/2026 4:20:33 PM] Heard a request
+[Thread] [5/21/2026 4:20:33 PM] Error while fetching file 'f4.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:33 PM] Result null for file f4.txt
+[Thread] [5/21/2026 4:20:33 PM] CACHE MISS -> 'f4.txt' (sending API request)
+[Listener] [5/21/2026 4:20:33 PM] Heard a request
+[Thread] [5/21/2026 4:20:33 PM] Error while fetching file 'f4.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[Thread] [5/21/2026 4:20:33 PM] started for file: 'f5.txt'
+[Thread] [5/21/2026 4:20:33 PM] started for file: 'f4.txt'
+[FileUtility] [5/21/2026 4:20:33 PM] Result null for file f4.txt
+[Thread] [5/21/2026 4:20:33 PM] CACHE MISS -> 'f5.txt' (sending API request)
+[Thread] [5/21/2026 4:20:33 PM] Error while fetching file 'f5.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:33 PM] Result null for file f5.txt
+[Thread] [5/21/2026 4:20:33 PM] CACHE MISS -> 'f4.txt' (sending API request)
+[Listener] [5/21/2026 4:20:33 PM] Heard a request
+[Thread] [5/21/2026 4:20:33 PM] Error while fetching file 'f4.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:33 PM] Result null for file f4.txt
+[Thread] [5/21/2026 4:20:33 PM] started for file: 'f5.txt'
+[Thread] [5/21/2026 4:20:33 PM] CACHE MISS -> 'f5.txt' (sending API request)
+[Thread] [5/21/2026 4:20:33 PM] Error while fetching file 'f5.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:33 PM] Result null for file f5.txt
+[Listener] [5/21/2026 4:20:33 PM] Heard a request
+[Listener] [5/21/2026 4:20:33 PM] Heard a request
+[Listener] [5/21/2026 4:20:33 PM] Heard a request
+[Listener] [5/21/2026 4:20:33 PM] Heard a request
+[Thread] [5/21/2026 4:20:33 PM] started for file: 'f5.txt'
+[Thread] [5/21/2026 4:20:33 PM] CACHE MISS -> 'f5.txt' (sending API request)
+[Listener] [5/21/2026 4:20:33 PM] Heard a request
+[Listener] [5/21/2026 4:20:33 PM] Heard a request
+[Thread] [5/21/2026 4:20:33 PM] started for file: 'f6.txt'
+[Thread] [5/21/2026 4:20:33 PM] started for file: 'f6.txt'
+[Thread] [5/21/2026 4:20:33 PM] started for file: 'f6.txt'
+[Thread] [5/21/2026 4:20:33 PM] started for file: 'f7.txt'
+[Thread] [5/21/2026 4:20:33 PM] Error while fetching file 'f5.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[Thread] [5/21/2026 4:20:33 PM] started for file: 'f7.txt'
+[FileUtility] [5/21/2026 4:20:33 PM] Result null for file f5.txt
+[Thread] [5/21/2026 4:20:33 PM] CACHE MISS -> 'f6.txt' (sending API request)
+[Listener] [5/21/2026 4:20:33 PM] Heard a request
+[Listener] [5/21/2026 4:20:33 PM] Heard a request
+[Thread] [5/21/2026 4:20:33 PM] Error while fetching file 'f6.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[Thread] [5/21/2026 4:20:33 PM] started for file: 'f8.txt'
+[FileUtility] [5/21/2026 4:20:33 PM] Result null for file f6.txt
+[Thread] [5/21/2026 4:20:33 PM] CACHE MISS -> 'f6.txt' (sending API request)
+[Thread] [5/21/2026 4:20:33 PM] started for file: 'f7.txt'
+[Thread] [5/21/2026 4:20:33 PM] Error while fetching file 'f6.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:33 PM] Result null for file f6.txt
+[Thread] [5/21/2026 4:20:33 PM] CACHE MISS -> 'f6.txt' (sending API request)
+[Thread] [5/21/2026 4:20:33 PM] Error while fetching file 'f6.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:33 PM] Result null for file f6.txt
+[Thread] [5/21/2026 4:20:33 PM] CACHE MISS -> 'f7.txt' (sending API request)
+[Listener] [5/21/2026 4:20:33 PM] Heard a request
+[Listener] [5/21/2026 4:20:33 PM] Heard a request
+[Thread] [5/21/2026 4:20:33 PM] started for file: 'f8.txt'
+[Listener] [5/21/2026 4:20:33 PM] Heard a request
+[Thread] [5/21/2026 4:20:33 PM] Error while fetching file 'f7.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[Thread] [5/21/2026 4:20:33 PM] started for file: 'f8.txt'
+[FileUtility] [5/21/2026 4:20:33 PM] Result null for file f7.txt
+[Thread] [5/21/2026 4:20:33 PM] CACHE MISS -> 'f7.txt' (sending API request)
+[Thread] [5/21/2026 4:20:33 PM] Error while fetching file 'f7.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[Thread] [5/21/2026 4:20:33 PM] started for file: 'f9.txt'
+[FileUtility] [5/21/2026 4:20:33 PM] Result null for file f7.txt
+[Thread] [5/21/2026 4:20:33 PM] CACHE MISS -> 'f8.txt' (sending API request)
+[Thread] [5/21/2026 4:20:33 PM] Error while fetching file 'f8.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:33 PM] Result null for file f8.txt
+[Thread] [5/21/2026 4:20:33 PM] CACHE MISS -> 'f7.txt' (sending API request)
+[Thread] [5/21/2026 4:20:33 PM] Error while fetching file 'f7.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:33 PM] Result null for file f7.txt
+[Thread] [5/21/2026 4:20:33 PM] CACHE MISS -> 'f8.txt' (sending API request)
+[Listener] [5/21/2026 4:20:33 PM] Heard a request
+[Listener] [5/21/2026 4:20:33 PM] Heard a request
+[Thread] [5/21/2026 4:20:33 PM] started for file: 'f9.txt'
+[Thread] [5/21/2026 4:20:33 PM] Error while fetching file 'f8.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:33 PM] Result null for file f8.txt
+[Thread] [5/21/2026 4:20:33 PM] CACHE MISS -> 'f8.txt' (sending API request)
+[Listener] [5/21/2026 4:20:33 PM] Heard a request
+[Thread] [5/21/2026 4:20:33 PM] started for file: 'f10.txt'
+[Thread] [5/21/2026 4:20:33 PM] started for file: 'f9.txt'
+[Listener] [5/21/2026 4:20:33 PM] Heard a request
+[Thread] [5/21/2026 4:20:33 PM] started for file: 'f10.txt'
+[Listener] [5/21/2026 4:20:33 PM] Heard a request
+[Thread] [5/21/2026 4:20:33 PM] started for file: 'f10.txt'
+[Thread] [5/21/2026 4:20:33 PM] Error while fetching file 'f8.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:33 PM] Result null for file f8.txt
+[Thread] [5/21/2026 4:20:33 PM] CACHE MISS -> 'f9.txt' (sending API request)
+[Thread] [5/21/2026 4:20:33 PM] Error while fetching file 'f9.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:33 PM] Result null for file f9.txt
+[Thread] [5/21/2026 4:20:33 PM] CACHE MISS -> 'f9.txt' (sending API request)
+[Thread] [5/21/2026 4:20:33 PM] Error while fetching file 'f9.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:33 PM] Result null for file f9.txt
+[Thread] [5/21/2026 4:20:33 PM] CACHE MISS -> 'f10.txt' (sending API request)
+[Thread] [5/21/2026 4:20:33 PM] Error while fetching file 'f10.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:33 PM] Result null for file f10.txt
+[Thread] [5/21/2026 4:20:33 PM] CACHE MISS -> 'f9.txt' (sending API request)
+[Thread] [5/21/2026 4:20:33 PM] Error while fetching file 'f9.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:33 PM] Result null for file f9.txt
+[Thread] [5/21/2026 4:20:33 PM] CACHE MISS -> 'f10.txt' (sending API request)
+[Thread] [5/21/2026 4:20:33 PM] Error while fetching file 'f10.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:33 PM] Result null for file f10.txt
+[Thread] [5/21/2026 4:20:33 PM] CACHE MISS -> 'f10.txt' (sending API request)
+[Thread] [5/21/2026 4:20:33 PM] Error while fetching file 'f10.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/21/2026 4:20:33 PM] Result null for file f10.txt
+[ApiService] [5/22/2026 7:28:38 AM] Started up!
+[Listener] [5/22/2026 7:28:48 AM] Heard a request
+[Listener] [5/22/2026 7:28:48 AM] Heard a request
+[Listener] [5/22/2026 7:28:48 AM] Heard a request
+[Listener] [5/22/2026 7:28:48 AM] Heard a request
+[Listener] [5/22/2026 7:28:48 AM] Heard a request
+[Listener] [5/22/2026 7:28:48 AM] Heard a request
+[Listener] [5/22/2026 7:28:48 AM] Heard a request
+[Listener] [5/22/2026 7:28:48 AM] Heard a request
+[Listener] [5/22/2026 7:28:48 AM] Heard a request
+[Listener] [5/22/2026 7:28:48 AM] Heard a request
+[Listener] [5/22/2026 7:28:48 AM] Heard a request
+[Listener] [5/22/2026 7:28:48 AM] Heard a request
+[Listener] [5/22/2026 7:28:48 AM] Heard a request
+[Listener] [5/22/2026 7:28:48 AM] Heard a request
+[Listener] [5/22/2026 7:28:48 AM] Heard a request
+[Listener] [5/22/2026 7:28:48 AM] Heard a request
+[Listener] [5/22/2026 7:28:48 AM] Heard a request
+[Listener] [5/22/2026 7:28:48 AM] Heard a request
+[Thread] [5/22/2026 7:28:48 AM] started for file: 'f2.txt'
+[Listener] [5/22/2026 7:28:48 AM] Heard a request
+[Listener] [5/22/2026 7:28:48 AM] Heard a request
+[Thread] [5/22/2026 7:28:48 AM] CACHE MISS -> 'f2.txt' (sending API request)
+[Thread] [5/22/2026 7:28:48 AM] started for file: 'f3.txt'
+[Thread] [5/22/2026 7:28:48 AM] started for file: 'f3.txt'
+[Thread] [5/22/2026 7:28:48 AM] started for file: 'f4.txt'
+[Thread] [5/22/2026 7:28:48 AM] started for file: 'f3.txt'
+[Thread] [5/22/2026 7:28:48 AM] started for file: 'f1.txt'
+[Thread] [5/22/2026 7:28:48 AM] started for file: 'f2.txt'
+[Thread] [5/22/2026 7:28:48 AM] started for file: 'f1.txt'
+[Thread] [5/22/2026 7:28:48 AM] started for file: 'f1.txt'
+[Listener] [5/22/2026 7:28:48 AM] Heard a request
+[Thread] [5/22/2026 7:28:48 AM] started for file: 'f2.txt'
+[Listener] [5/22/2026 7:28:48 AM] Heard a request
+[Listener] [5/22/2026 7:28:48 AM] Heard a request
+[Listener] [5/22/2026 7:28:48 AM] Heard a request
+[Listener] [5/22/2026 7:28:48 AM] Heard a request
+[Listener] [5/22/2026 7:28:48 AM] Heard a request
+[Listener] [5/22/2026 7:28:48 AM] Heard a request
+[Listener] [5/22/2026 7:28:48 AM] Heard a request
+[Listener] [5/22/2026 7:28:48 AM] Heard a request
+[Listener] [5/22/2026 7:28:48 AM] Heard a request
+[Thread] [5/22/2026 7:28:49 AM] Error while fetching file 'f2.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:49 AM] Result null for file f2.txt
+[Thread] [5/22/2026 7:28:49 AM] CACHE MISS -> 'f3.txt' (sending API request)
+[Thread] [5/22/2026 7:28:49 AM] Error while fetching file 'f3.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:49 AM] Result null for file f3.txt
+[Thread] [5/22/2026 7:28:49 AM] CACHE MISS -> 'f3.txt' (sending API request)
+[Thread] [5/22/2026 7:28:49 AM] Error while fetching file 'f3.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:49 AM] Result null for file f3.txt
+[Thread] [5/22/2026 7:28:49 AM] CACHE MISS -> 'f4.txt' (sending API request)
+[Thread] [5/22/2026 7:28:49 AM] Error while fetching file 'f4.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:49 AM] Result null for file f4.txt
+[Thread] [5/22/2026 7:28:49 AM] CACHE MISS -> 'f3.txt' (sending API request)
+[Thread] [5/22/2026 7:28:49 AM] Error while fetching file 'f3.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:49 AM] Result null for file f3.txt
+[Thread] [5/22/2026 7:28:49 AM] CACHE MISS -> 'f1.txt' (sending API request)
+[Thread] [5/22/2026 7:28:49 AM] started for file: 'f4.txt'
+[Thread] [5/22/2026 7:28:49 AM] Error while fetching file 'f1.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:49 AM] Result null for file f1.txt
+[Thread] [5/22/2026 7:28:49 AM] CACHE MISS -> 'f2.txt' (sending API request)
+[Thread] [5/22/2026 7:28:49 AM] started for file: 'f5.txt'
+[Thread] [5/22/2026 7:28:49 AM] Error while fetching file 'f2.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:49 AM] Result null for file f2.txt
+[Thread] [5/22/2026 7:28:49 AM] CACHE MISS -> 'f1.txt' (sending API request)
+[Thread] [5/22/2026 7:28:49 AM] started for file: 'f4.txt'
+[Thread] [5/22/2026 7:28:49 AM] Error while fetching file 'f1.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:49 AM] Result null for file f1.txt
+[Thread] [5/22/2026 7:28:49 AM] CACHE MISS -> 'f1.txt' (sending API request)
+[Thread] [5/22/2026 7:28:49 AM] started for file: 'f5.txt'
+[Thread] [5/22/2026 7:28:49 AM] Error while fetching file 'f1.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:49 AM] Result null for file f1.txt
+[Thread] [5/22/2026 7:28:49 AM] CACHE MISS -> 'f2.txt' (sending API request)
+[Thread] [5/22/2026 7:28:49 AM] Error while fetching file 'f2.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:49 AM] Result null for file f2.txt
+[Thread] [5/22/2026 7:28:49 AM] CACHE MISS -> 'f4.txt' (sending API request)
+[Thread] [5/22/2026 7:28:49 AM] started for file: 'f6.txt'
+[Thread] [5/22/2026 7:28:49 AM] Error while fetching file 'f4.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:49 AM] Result null for file f4.txt
+[Thread] [5/22/2026 7:28:49 AM] CACHE MISS -> 'f5.txt' (sending API request)
+[Thread] [5/22/2026 7:28:49 AM] started for file: 'f5.txt'
+[Thread] [5/22/2026 7:28:49 AM] Error while fetching file 'f5.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:49 AM] Result null for file f5.txt
+[Thread] [5/22/2026 7:28:49 AM] CACHE MISS -> 'f4.txt' (sending API request)
+[Thread] [5/22/2026 7:28:49 AM] started for file: 'f6.txt'
+[Thread] [5/22/2026 7:28:49 AM] started for file: 'f7.txt'
+[Thread] [5/22/2026 7:28:49 AM] started for file: 'f6.txt'
+[Thread] [5/22/2026 7:28:49 AM] started for file: 'f7.txt'
+[Thread] [5/22/2026 7:28:49 AM] Error while fetching file 'f4.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:49 AM] Result null for file f4.txt
+[Thread] [5/22/2026 7:28:49 AM] CACHE MISS -> 'f5.txt' (sending API request)
+[Thread] [5/22/2026 7:28:49 AM] Error while fetching file 'f5.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:49 AM] Result null for file f5.txt
+[Thread] [5/22/2026 7:28:49 AM] CACHE MISS -> 'f6.txt' (sending API request)
+[Thread] [5/22/2026 7:28:49 AM] started for file: 'f7.txt'
+[Thread] [5/22/2026 7:28:49 AM] started for file: 'f8.txt'
+[Thread] [5/22/2026 7:28:49 AM] started for file: 'f8.txt'
+[Thread] [5/22/2026 7:28:49 AM] Error while fetching file 'f6.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[Thread] [5/22/2026 7:28:49 AM] started for file: 'f8.txt'
+[FileUtility] [5/22/2026 7:28:49 AM] Result null for file f6.txt
+[Thread] [5/22/2026 7:28:49 AM] CACHE MISS -> 'f5.txt' (sending API request)
+[Thread] [5/22/2026 7:28:49 AM] Error while fetching file 'f5.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:49 AM] Result null for file f5.txt
+[Thread] [5/22/2026 7:28:49 AM] CACHE MISS -> 'f6.txt' (sending API request)
+[Thread] [5/22/2026 7:28:49 AM] Error while fetching file 'f6.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:49 AM] Result null for file f6.txt
+[Thread] [5/22/2026 7:28:49 AM] CACHE MISS -> 'f7.txt' (sending API request)
+[Thread] [5/22/2026 7:28:49 AM] Error while fetching file 'f7.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:49 AM] Result null for file f7.txt
+[Thread] [5/22/2026 7:28:49 AM] CACHE MISS -> 'f6.txt' (sending API request)
+[Thread] [5/22/2026 7:28:49 AM] Error while fetching file 'f6.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:49 AM] Result null for file f6.txt
+[Thread] [5/22/2026 7:28:49 AM] CACHE MISS -> 'f7.txt' (sending API request)
+[Thread] [5/22/2026 7:28:49 AM] Error while fetching file 'f7.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:49 AM] Result null for file f7.txt
+[Thread] [5/22/2026 7:28:49 AM] CACHE MISS -> 'f7.txt' (sending API request)
+[Thread] [5/22/2026 7:28:49 AM] Error while fetching file 'f7.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:49 AM] Result null for file f7.txt
+[Thread] [5/22/2026 7:28:49 AM] CACHE MISS -> 'f8.txt' (sending API request)
+[Thread] [5/22/2026 7:28:49 AM] Error while fetching file 'f8.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:49 AM] Result null for file f8.txt
+[Thread] [5/22/2026 7:28:49 AM] CACHE MISS -> 'f8.txt' (sending API request)
+[Thread] [5/22/2026 7:28:49 AM] Error while fetching file 'f8.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:49 AM] Result null for file f8.txt
+[Thread] [5/22/2026 7:28:49 AM] CACHE MISS -> 'f8.txt' (sending API request)
+[Thread] [5/22/2026 7:28:49 AM] Error while fetching file 'f8.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:49 AM] Result null for file f8.txt
+[Thread] [5/22/2026 7:28:49 AM] started for file: 'f9.txt'
+[Thread] [5/22/2026 7:28:49 AM] CACHE MISS -> 'f9.txt' (sending API request)
+[Thread] [5/22/2026 7:28:49 AM] Error while fetching file 'f9.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:49 AM] Result null for file f9.txt
+[Thread] [5/22/2026 7:28:49 AM] started for file: 'f9.txt'
+[Thread] [5/22/2026 7:28:49 AM] CACHE MISS -> 'f9.txt' (sending API request)
+[Thread] [5/22/2026 7:28:49 AM] Error while fetching file 'f9.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:49 AM] Result null for file f9.txt
+[Thread] [5/22/2026 7:28:49 AM] started for file: 'f10.txt'
+[Thread] [5/22/2026 7:28:49 AM] CACHE MISS -> 'f10.txt' (sending API request)
+[Thread] [5/22/2026 7:28:49 AM] started for file: 'f9.txt'
+[Thread] [5/22/2026 7:28:49 AM] Error while fetching file 'f10.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[Thread] [5/22/2026 7:28:49 AM] started for file: 'f10.txt'
+[FileUtility] [5/22/2026 7:28:49 AM] Result null for file f10.txt
+[Thread] [5/22/2026 7:28:49 AM] CACHE MISS -> 'f9.txt' (sending API request)
+[Thread] [5/22/2026 7:28:49 AM] started for file: 'f10.txt'
+[Thread] [5/22/2026 7:28:49 AM] Error while fetching file 'f9.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:49 AM] Result null for file f9.txt
+[Thread] [5/22/2026 7:28:49 AM] CACHE MISS -> 'f10.txt' (sending API request)
+[Thread] [5/22/2026 7:28:49 AM] Error while fetching file 'f10.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:49 AM] Result null for file f10.txt
+[Thread] [5/22/2026 7:28:49 AM] CACHE MISS -> 'f10.txt' (sending API request)
+[Thread] [5/22/2026 7:28:49 AM] Error while fetching file 'f10.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:49 AM] Result null for file f10.txt
+[Listener] [5/22/2026 7:28:52 AM] Heard a request
+[Thread] [5/22/2026 7:28:52 AM] started for file: 'f1.txt'
+[Thread] [5/22/2026 7:28:52 AM] CACHE MISS -> 'f1.txt' (sending API request)
+[Listener] [5/22/2026 7:28:52 AM] Heard a request
+[Thread] [5/22/2026 7:28:52 AM] started for file: 'f1.txt'
+[Listener] [5/22/2026 7:28:52 AM] Heard a request
+[Thread] [5/22/2026 7:28:52 AM] Error while fetching file 'f1.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[Listener] [5/22/2026 7:28:52 AM] Heard a request
+[Thread] [5/22/2026 7:28:52 AM] started for file: 'f1.txt'
+[Thread] [5/22/2026 7:28:52 AM] started for file: 'f2.txt'
+[FileUtility] [5/22/2026 7:28:52 AM] Result null for file f1.txt
+[Thread] [5/22/2026 7:28:52 AM] CACHE MISS -> 'f1.txt' (sending API request)
+[Listener] [5/22/2026 7:28:52 AM] Heard a request
+[Thread] [5/22/2026 7:28:52 AM] Error while fetching file 'f1.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[Thread] [5/22/2026 7:28:52 AM] started for file: 'f2.txt'
+[FileUtility] [5/22/2026 7:28:52 AM] Result null for file f1.txt
+[Thread] [5/22/2026 7:28:52 AM] CACHE MISS -> 'f1.txt' (sending API request)
+[Thread] [5/22/2026 7:28:52 AM] Error while fetching file 'f1.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:52 AM] Result null for file f1.txt
+[Thread] [5/22/2026 7:28:52 AM] CACHE MISS -> 'f2.txt' (sending API request)
+[Listener] [5/22/2026 7:28:52 AM] Heard a request
+[Thread] [5/22/2026 7:28:52 AM] Error while fetching file 'f2.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[Thread] [5/22/2026 7:28:52 AM] started for file: 'f3.txt'
+[FileUtility] [5/22/2026 7:28:52 AM] Result null for file f2.txt
+[Thread] [5/22/2026 7:28:52 AM] CACHE MISS -> 'f2.txt' (sending API request)
+[Listener] [5/22/2026 7:28:52 AM] Heard a request
+[Listener] [5/22/2026 7:28:52 AM] Heard a request
+[Listener] [5/22/2026 7:28:52 AM] Heard a request
+[Listener] [5/22/2026 7:28:52 AM] Heard a request
+[Thread] [5/22/2026 7:28:52 AM] started for file: 'f2.txt'
+[Thread] [5/22/2026 7:28:52 AM] Error while fetching file 'f2.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:52 AM] Result null for file f2.txt
+[Thread] [5/22/2026 7:28:52 AM] CACHE MISS -> 'f3.txt' (sending API request)
+[Thread] [5/22/2026 7:28:52 AM] started for file: 'f3.txt'
+[Thread] [5/22/2026 7:28:52 AM] Error while fetching file 'f3.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:52 AM] Result null for file f3.txt
+[Thread] [5/22/2026 7:28:52 AM] CACHE MISS -> 'f2.txt' (sending API request)
+[Thread] [5/22/2026 7:28:52 AM] started for file: 'f3.txt'
+[Listener] [5/22/2026 7:28:52 AM] Heard a request
+[Thread] [5/22/2026 7:28:52 AM] Error while fetching file 'f2.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:52 AM] Result null for file f2.txt
+[Thread] [5/22/2026 7:28:52 AM] CACHE MISS -> 'f3.txt' (sending API request)
+[Thread] [5/22/2026 7:28:52 AM] started for file: 'f4.txt'
+[Listener] [5/22/2026 7:28:52 AM] Heard a request
+[Listener] [5/22/2026 7:28:52 AM] Heard a request
+[Thread] [5/22/2026 7:28:52 AM] Error while fetching file 'f3.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[Listener] [5/22/2026 7:28:52 AM] Heard a request
+[FileUtility] [5/22/2026 7:28:52 AM] Result null for file f3.txt
+[Thread] [5/22/2026 7:28:52 AM] CACHE MISS -> 'f3.txt' (sending API request)
+[Thread] [5/22/2026 7:28:52 AM] started for file: 'f4.txt'
+[Thread] [5/22/2026 7:28:52 AM] Error while fetching file 'f3.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:52 AM] Result null for file f3.txt
+[Thread] [5/22/2026 7:28:52 AM] CACHE MISS -> 'f4.txt' (sending API request)
+[Thread] [5/22/2026 7:28:52 AM] started for file: 'f4.txt'
+[Thread] [5/22/2026 7:28:52 AM] started for file: 'f5.txt'
+[Thread] [5/22/2026 7:28:52 AM] started for file: 'f5.txt'
+[Listener] [5/22/2026 7:28:52 AM] Heard a request
+[Listener] [5/22/2026 7:28:52 AM] Heard a request
+[Listener] [5/22/2026 7:28:52 AM] Heard a request
+[Listener] [5/22/2026 7:28:52 AM] Heard a request
+[Listener] [5/22/2026 7:28:52 AM] Heard a request
+[Thread] [5/22/2026 7:28:52 AM] Error while fetching file 'f4.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:52 AM] Result null for file f4.txt
+[Thread] [5/22/2026 7:28:52 AM] CACHE MISS -> 'f4.txt' (sending API request)
+[Thread] [5/22/2026 7:28:52 AM] started for file: 'f5.txt'
+[Thread] [5/22/2026 7:28:52 AM] started for file: 'f6.txt'
+[Listener] [5/22/2026 7:28:52 AM] Heard a request
+[Listener] [5/22/2026 7:28:52 AM] Heard a request
+[Listener] [5/22/2026 7:28:52 AM] Heard a request
+[Thread] [5/22/2026 7:28:52 AM] Error while fetching file 'f4.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:52 AM] Result null for file f4.txt
+[Listener] [5/22/2026 7:28:52 AM] Heard a request
+[Thread] [5/22/2026 7:28:52 AM] started for file: 'f6.txt'
+[Thread] [5/22/2026 7:28:52 AM] CACHE MISS -> 'f6.txt' (sending API request)
+[Thread] [5/22/2026 7:28:52 AM] started for file: 'f6.txt'
+[Thread] [5/22/2026 7:28:52 AM] started for file: 'f7.txt'
+[Thread] [5/22/2026 7:28:52 AM] started for file: 'f7.txt'
+[Thread] [5/22/2026 7:28:52 AM] started for file: 'f8.txt'
+[Thread] [5/22/2026 7:28:52 AM] Error while fetching file 'f6.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:52 AM] Result null for file f6.txt
+[Thread] [5/22/2026 7:28:52 AM] CACHE MISS -> 'f5.txt' (sending API request)
+[Thread] [5/22/2026 7:28:52 AM] Error while fetching file 'f5.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:52 AM] Result null for file f5.txt
+[Thread] [5/22/2026 7:28:52 AM] CACHE MISS -> 'f5.txt' (sending API request)
+[Thread] [5/22/2026 7:28:52 AM] Error while fetching file 'f5.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:52 AM] Result null for file f5.txt
+[Thread] [5/22/2026 7:28:52 AM] CACHE MISS -> 'f5.txt' (sending API request)
+[Thread] [5/22/2026 7:28:52 AM] Error while fetching file 'f5.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:52 AM] Result null for file f5.txt
+[Thread] [5/22/2026 7:28:52 AM] CACHE MISS -> 'f6.txt' (sending API request)
+[Listener] [5/22/2026 7:28:52 AM] Heard a request
+[Thread] [5/22/2026 7:28:52 AM] Error while fetching file 'f6.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:52 AM] Result null for file f6.txt
+[Thread] [5/22/2026 7:28:52 AM] CACHE MISS -> 'f4.txt' (sending API request)
+[Listener] [5/22/2026 7:28:52 AM] Heard a request
+[Listener] [5/22/2026 7:28:52 AM] Heard a request
+[Thread] [5/22/2026 7:28:52 AM] Error while fetching file 'f4.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:52 AM] Result null for file f4.txt
+[Thread] [5/22/2026 7:28:52 AM] CACHE MISS -> 'f6.txt' (sending API request)
+[Thread] [5/22/2026 7:28:52 AM] Error while fetching file 'f6.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:52 AM] Result null for file f6.txt
+[Thread] [5/22/2026 7:28:52 AM] CACHE MISS -> 'f7.txt' (sending API request)
+[Thread] [5/22/2026 7:28:52 AM] Error while fetching file 'f7.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:52 AM] Result null for file f7.txt
+[Thread] [5/22/2026 7:28:52 AM] CACHE MISS -> 'f7.txt' (sending API request)
+[Thread] [5/22/2026 7:28:52 AM] Error while fetching file 'f7.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:52 AM] Result null for file f7.txt
+[Thread] [5/22/2026 7:28:52 AM] CACHE MISS -> 'f8.txt' (sending API request)
+[Listener] [5/22/2026 7:28:52 AM] Heard a request
+[Listener] [5/22/2026 7:28:52 AM] Heard a request
+[Thread] [5/22/2026 7:28:52 AM] Error while fetching file 'f8.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:52 AM] Result null for file f8.txt
+[Listener] [5/22/2026 7:28:52 AM] Heard a request
+[Listener] [5/22/2026 7:28:52 AM] Heard a request
+[Thread] [5/22/2026 7:28:52 AM] started for file: 'f7.txt'
+[Thread] [5/22/2026 7:28:52 AM] CACHE MISS -> 'f7.txt' (sending API request)
+[Thread] [5/22/2026 7:28:52 AM] started for file: 'f8.txt'
+[Thread] [5/22/2026 7:28:52 AM] started for file: 'f8.txt'
+[Thread] [5/22/2026 7:28:52 AM] started for file: 'f9.txt'
+[Thread] [5/22/2026 7:28:52 AM] Error while fetching file 'f7.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[Thread] [5/22/2026 7:28:52 AM] started for file: 'f9.txt'
+[Thread] [5/22/2026 7:28:52 AM] started for file: 'f9.txt'
+[Thread] [5/22/2026 7:28:52 AM] started for file: 'f10.txt'
+[Thread] [5/22/2026 7:28:52 AM] started for file: 'f10.txt'
+[Thread] [5/22/2026 7:28:52 AM] started for file: 'f10.txt'
+[FileUtility] [5/22/2026 7:28:52 AM] Result null for file f7.txt
+[Thread] [5/22/2026 7:28:52 AM] CACHE MISS -> 'f8.txt' (sending API request)
+[Thread] [5/22/2026 7:28:52 AM] Error while fetching file 'f8.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:52 AM] Result null for file f8.txt
+[Thread] [5/22/2026 7:28:52 AM] CACHE MISS -> 'f8.txt' (sending API request)
+[Thread] [5/22/2026 7:28:52 AM] Error while fetching file 'f8.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:52 AM] Result null for file f8.txt
+[Thread] [5/22/2026 7:28:52 AM] CACHE MISS -> 'f9.txt' (sending API request)
+[Thread] [5/22/2026 7:28:52 AM] Error while fetching file 'f9.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:52 AM] Result null for file f9.txt
+[Thread] [5/22/2026 7:28:52 AM] CACHE MISS -> 'f9.txt' (sending API request)
+[Thread] [5/22/2026 7:28:52 AM] Error while fetching file 'f9.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:52 AM] Result null for file f9.txt
+[Thread] [5/22/2026 7:28:52 AM] CACHE MISS -> 'f9.txt' (sending API request)
+[Thread] [5/22/2026 7:28:52 AM] Error while fetching file 'f9.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:52 AM] Result null for file f9.txt
+[Thread] [5/22/2026 7:28:52 AM] CACHE MISS -> 'f10.txt' (sending API request)
+[Thread] [5/22/2026 7:28:52 AM] Error while fetching file 'f10.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:52 AM] Result null for file f10.txt
+[Thread] [5/22/2026 7:28:52 AM] CACHE MISS -> 'f10.txt' (sending API request)
+[Thread] [5/22/2026 7:28:52 AM] Error while fetching file 'f10.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:52 AM] Result null for file f10.txt
+[Thread] [5/22/2026 7:28:52 AM] CACHE MISS -> 'f10.txt' (sending API request)
+[Thread] [5/22/2026 7:28:52 AM] Error while fetching file 'f10.txt': One or more errors occurred. (Connection refused (localhost:5182))
+[FileUtility] [5/22/2026 7:28:52 AM] Result null for file f10.txt
+
+[ApiService] [5/22/2026 7:33:04 AM] SIGINT called
+[ApiService] [5/22/2026 7:33:04 AM] Error: Thread unjoinable - Thread has not been started.
+[ApiService] [5/22/2026 7:33:13 AM] Started up!
+[Listener] [5/22/2026 7:33:20 AM] Heard a request
+[Listener] [5/22/2026 7:33:20 AM] Heard a request
+[Listener] [5/22/2026 7:33:20 AM] Heard a request
+[Listener] [5/22/2026 7:33:20 AM] Heard a request
+[Listener] [5/22/2026 7:33:20 AM] Heard a request
+[Listener] [5/22/2026 7:33:20 AM] Heard a request
+[Listener] [5/22/2026 7:33:20 AM] Heard a request
+[Listener] [5/22/2026 7:33:20 AM] Heard a request
+[Listener] [5/22/2026 7:33:20 AM] Heard a request
+[Listener] [5/22/2026 7:33:20 AM] Heard a request
+[Listener] [5/22/2026 7:33:20 AM] Heard a request
+[Listener] [5/22/2026 7:33:20 AM] Heard a request
+[Listener] [5/22/2026 7:33:20 AM] Heard a request
+[Listener] [5/22/2026 7:33:20 AM] Heard a request
+[Thread] [5/22/2026 7:33:20 AM] started for file: 'f1.txt'
+[Listener] [5/22/2026 7:33:20 AM] Heard a request
+[Thread] [5/22/2026 7:33:20 AM] started for file: 'f1.txt'
+[Thread] [5/22/2026 7:33:20 AM] started for file: 'f1.txt'
+[Thread] [5/22/2026 7:33:20 AM] started for file: 'f2.txt'
+[Thread] [5/22/2026 7:33:20 AM] CACHE MISS -> 'f1.txt' (sending API request)
+[Listener] [5/22/2026 7:33:20 AM] Heard a request
+[Thread] [5/22/2026 7:33:20 AM] started for file: 'f2.txt'
+[Thread] [5/22/2026 7:33:20 AM] started for file: 'f2.txt'
+[Thread] [5/22/2026 7:33:20 AM] started for file: 'f3.txt'
+[Listener] [5/22/2026 7:33:20 AM] Heard a request
+[Listener] [5/22/2026 7:33:20 AM] Heard a request
+[Listener] [5/22/2026 7:33:20 AM] Heard a request
+[Thread] [5/22/2026 7:33:20 AM] started for file: 'f3.txt'
+[Thread] [5/22/2026 7:33:20 AM] started for file: 'f3.txt'
+[Listener] [5/22/2026 7:33:20 AM] Heard a request
+[Listener] [5/22/2026 7:33:20 AM] Heard a request
+[Thread] [5/22/2026 7:33:20 AM] started for file: 'f4.txt'
+[Listener] [5/22/2026 7:33:20 AM] Heard a request
+[Listener] [5/22/2026 7:33:20 AM] Heard a request
+[Listener] [5/22/2026 7:33:20 AM] Heard a request
+[Listener] [5/22/2026 7:33:20 AM] Heard a request
+[Listener] [5/22/2026 7:33:20 AM] Heard a request
+[Listener] [5/22/2026 7:33:20 AM] Heard a request
+[Listener] [5/22/2026 7:33:20 AM] Heard a request
+[Listener] [5/22/2026 7:33:20 AM] Heard a request
+[Listener] [5/22/2026 7:33:20 AM] Heard a request
+[CACHE] [5/22/2026 7:33:20 AM] Added to cache f1.txt
+[Thread] [5/22/2026 7:33:20 AM] Result stored in cache for query: 'f1.txt'
+[FileUtility] [5/22/2026 7:33:20 AM] Results for file f1.txt saved
+[CACHE] [5/22/2026 7:33:20 AM] Read from cache f1.txt
+[Thread] [5/22/2026 7:33:20 AM] CACHE HIT  -> 'f1.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:20 AM] Results for file f1.txt saved
+[CACHE] [5/22/2026 7:33:20 AM] Read from cache f1.txt
+[Thread] [5/22/2026 7:33:20 AM] CACHE HIT  -> 'f1.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:20 AM] Results for file f1.txt saved
+[Thread] [5/22/2026 7:33:20 AM] CACHE MISS -> 'f2.txt' (sending API request)
+[Thread] [5/22/2026 7:33:20 AM] started for file: 'f4.txt'
+[Thread] [5/22/2026 7:33:20 AM] started for file: 'f5.txt'
+[Thread] [5/22/2026 7:33:20 AM] started for file: 'f5.txt'
+[CACHE] [5/22/2026 7:33:20 AM] Added to cache f2.txt
+[Thread] [5/22/2026 7:33:20 AM] Result stored in cache for query: 'f2.txt'
+[FileUtility] [5/22/2026 7:33:20 AM] Results for file f2.txt saved
+[CACHE] [5/22/2026 7:33:20 AM] Read from cache f2.txt
+[Thread] [5/22/2026 7:33:20 AM] CACHE HIT  -> 'f2.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:20 AM] Results for file f2.txt saved
+[CACHE] [5/22/2026 7:33:20 AM] Read from cache f2.txt
+[Thread] [5/22/2026 7:33:20 AM] CACHE HIT  -> 'f2.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:20 AM] Results for file f2.txt saved
+[Thread] [5/22/2026 7:33:20 AM] CACHE MISS -> 'f3.txt' (sending API request)
+[CACHE] [5/22/2026 7:33:20 AM] Added to cache f3.txt
+[Thread] [5/22/2026 7:33:20 AM] Result stored in cache for query: 'f3.txt'
+[FileUtility] [5/22/2026 7:33:20 AM] Results for file f3.txt saved
+[CACHE] [5/22/2026 7:33:20 AM] Read from cache f3.txt
+[Thread] [5/22/2026 7:33:20 AM] CACHE HIT  -> 'f3.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:20 AM] Results for file f3.txt saved
+[CACHE] [5/22/2026 7:33:20 AM] Read from cache f3.txt
+[Thread] [5/22/2026 7:33:20 AM] CACHE HIT  -> 'f3.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:20 AM] Results for file f3.txt saved
+[Thread] [5/22/2026 7:33:20 AM] CACHE MISS -> 'f4.txt' (sending API request)
+[Thread] [5/22/2026 7:33:20 AM] started for file: 'f4.txt'
+[Thread] [5/22/2026 7:33:20 AM] started for file: 'f5.txt'
+[Thread] [5/22/2026 7:33:20 AM] started for file: 'f6.txt'
+[Thread] [5/22/2026 7:33:20 AM] started for file: 'f6.txt'
+[Thread] [5/22/2026 7:33:20 AM] started for file: 'f6.txt'
+[Thread] [5/22/2026 7:33:20 AM] started for file: 'f7.txt'
+[CACHE] [5/22/2026 7:33:20 AM] Added to cache f4.txt
+[Thread] [5/22/2026 7:33:20 AM] Result stored in cache for query: 'f4.txt'
+[FileUtility] [5/22/2026 7:33:20 AM] Results for file f4.txt saved
+[CACHE] [5/22/2026 7:33:20 AM] Read from cache f4.txt
+[Thread] [5/22/2026 7:33:20 AM] CACHE HIT  -> 'f4.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:20 AM] Results for file f4.txt saved
+[Thread] [5/22/2026 7:33:20 AM] CACHE MISS -> 'f5.txt' (sending API request)
+[CACHE] [5/22/2026 7:33:20 AM] Added to cache f5.txt
+[Thread] [5/22/2026 7:33:20 AM] Result stored in cache for query: 'f5.txt'
+[FileUtility] [5/22/2026 7:33:20 AM] Results for file f5.txt saved
+[CACHE] [5/22/2026 7:33:20 AM] Read from cache f5.txt
+[Thread] [5/22/2026 7:33:20 AM] CACHE HIT  -> 'f5.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:20 AM] Results for file f5.txt saved
+[CACHE] [5/22/2026 7:33:20 AM] Read from cache f4.txt
+[Thread] [5/22/2026 7:33:20 AM] CACHE HIT  -> 'f4.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:20 AM] Results for file f4.txt saved
+[CACHE] [5/22/2026 7:33:20 AM] Read from cache f5.txt
+[Thread] [5/22/2026 7:33:20 AM] CACHE HIT  -> 'f5.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:20 AM] Results for file f5.txt saved
+[Thread] [5/22/2026 7:33:20 AM] CACHE MISS -> 'f6.txt' (sending API request)
+[Thread] [5/22/2026 7:33:20 AM] started for file: 'f7.txt'
+[Thread] [5/22/2026 7:33:20 AM] started for file: 'f7.txt'
+[Thread] [5/22/2026 7:33:20 AM] started for file: 'f8.txt'
+[Thread] [5/22/2026 7:33:20 AM] started for file: 'f8.txt'
+[Thread] [5/22/2026 7:33:20 AM] started for file: 'f9.txt'
+[Thread] [5/22/2026 7:33:20 AM] started for file: 'f8.txt'
+[CACHE] [5/22/2026 7:33:20 AM] Added to cache f6.txt
+[Thread] [5/22/2026 7:33:20 AM] Result stored in cache for query: 'f6.txt'
+[FileUtility] [5/22/2026 7:33:20 AM] Results for file f6.txt saved
+[CACHE] [5/22/2026 7:33:20 AM] Read from cache f6.txt
+[Thread] [5/22/2026 7:33:20 AM] CACHE HIT  -> 'f6.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:20 AM] Results for file f6.txt saved
+[CACHE] [5/22/2026 7:33:20 AM] Read from cache f6.txt
+[Thread] [5/22/2026 7:33:20 AM] CACHE HIT  -> 'f6.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:20 AM] Results for file f6.txt saved
+[Thread] [5/22/2026 7:33:20 AM] CACHE MISS -> 'f7.txt' (sending API request)
+[CACHE] [5/22/2026 7:33:20 AM] Added to cache f7.txt
+[Thread] [5/22/2026 7:33:20 AM] Result stored in cache for query: 'f7.txt'
+[FileUtility] [5/22/2026 7:33:20 AM] Results for file f7.txt saved
+[CACHE] [5/22/2026 7:33:20 AM] Read from cache f7.txt
+[Thread] [5/22/2026 7:33:20 AM] CACHE HIT  -> 'f7.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:20 AM] Results for file f7.txt saved
+[CACHE] [5/22/2026 7:33:20 AM] Read from cache f7.txt
+[Thread] [5/22/2026 7:33:20 AM] CACHE HIT  -> 'f7.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:20 AM] Results for file f7.txt saved
+[Thread] [5/22/2026 7:33:20 AM] CACHE MISS -> 'f8.txt' (sending API request)
+[CACHE] [5/22/2026 7:33:20 AM] Added to cache f8.txt
+[Thread] [5/22/2026 7:33:20 AM] Result stored in cache for query: 'f8.txt'
+[FileUtility] [5/22/2026 7:33:20 AM] Results for file f8.txt saved
+[CACHE] [5/22/2026 7:33:20 AM] Read from cache f8.txt
+[Thread] [5/22/2026 7:33:20 AM] CACHE HIT  -> 'f8.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:20 AM] Results for file f8.txt saved
+[Thread] [5/22/2026 7:33:20 AM] started for file: 'f9.txt'
+[Thread] [5/22/2026 7:33:20 AM] CACHE MISS -> 'f9.txt' (sending API request)
+[Thread] [5/22/2026 7:33:20 AM] started for file: 'f9.txt'
+[Thread] [5/22/2026 7:33:20 AM] started for file: 'f10.txt'
+[Thread] [5/22/2026 7:33:20 AM] started for file: 'f10.txt'
+[Thread] [5/22/2026 7:33:20 AM] started for file: 'f10.txt'
+[CACHE] [5/22/2026 7:33:20 AM] Added to cache f9.txt
+[Thread] [5/22/2026 7:33:20 AM] Result stored in cache for query: 'f9.txt'
+[FileUtility] [5/22/2026 7:33:20 AM] Results for file f9.txt saved
+[CACHE] [5/22/2026 7:33:20 AM] Read from cache f8.txt
+[Thread] [5/22/2026 7:33:20 AM] CACHE HIT  -> 'f8.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:20 AM] Results for file f8.txt saved
+[CACHE] [5/22/2026 7:33:20 AM] Read from cache f9.txt
+[Thread] [5/22/2026 7:33:20 AM] CACHE HIT  -> 'f9.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:20 AM] Results for file f9.txt saved
+[Thread] [5/22/2026 7:33:20 AM] CACHE MISS -> 'f10.txt' (sending API request)
+[CACHE] [5/22/2026 7:33:20 AM] Added to cache f10.txt
+[Thread] [5/22/2026 7:33:20 AM] Result stored in cache for query: 'f10.txt'
+[FileUtility] [5/22/2026 7:33:20 AM] Results for file f10.txt saved
+[CACHE] [5/22/2026 7:33:20 AM] Read from cache f10.txt
+[Thread] [5/22/2026 7:33:20 AM] CACHE HIT  -> 'f10.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:20 AM] Results for file f10.txt saved
+[CACHE] [5/22/2026 7:33:20 AM] Read from cache f9.txt
+[Thread] [5/22/2026 7:33:20 AM] CACHE HIT  -> 'f9.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:20 AM] Results for file f9.txt saved
+[CACHE] [5/22/2026 7:33:20 AM] Read from cache f10.txt
+[Thread] [5/22/2026 7:33:20 AM] CACHE HIT  -> 'f10.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:20 AM] Results for file f10.txt saved
+[Listener] [5/22/2026 7:33:22 AM] Heard a request
+[Thread] [5/22/2026 7:33:22 AM] started for file: 'f2.txt'
+[Listener] [5/22/2026 7:33:22 AM] Heard a request
+[CACHE] [5/22/2026 7:33:22 AM] Read from cache f2.txt
+[Thread] [5/22/2026 7:33:22 AM] CACHE HIT  -> 'f2.txt' (taken from cache)
+[Listener] [5/22/2026 7:33:22 AM] Heard a request
+[FileUtility] [5/22/2026 7:33:22 AM] Results for file f2.txt saved
+[Listener] [5/22/2026 7:33:22 AM] Heard a request
+[Thread] [5/22/2026 7:33:22 AM] started for file: 'f1.txt'
+[CACHE] [5/22/2026 7:33:22 AM] Read from cache f1.txt
+[Thread] [5/22/2026 7:33:22 AM] CACHE HIT  -> 'f1.txt' (taken from cache)
+[Thread] [5/22/2026 7:33:22 AM] started for file: 'f1.txt'
+[CACHE] [5/22/2026 7:33:22 AM] Read from cache f1.txt
+[Thread] [5/22/2026 7:33:22 AM] CACHE HIT  -> 'f1.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:22 AM] Results for file f1.txt saved
+[FileUtility] [5/22/2026 7:33:22 AM] Results for file f1.txt saved
+[Thread] [5/22/2026 7:33:22 AM] started for file: 'f1.txt'
+[CACHE] [5/22/2026 7:33:22 AM] Read from cache f1.txt
+[Listener] [5/22/2026 7:33:22 AM] Heard a request
+[Thread] [5/22/2026 7:33:22 AM] CACHE HIT  -> 'f1.txt' (taken from cache)
+[Thread] [5/22/2026 7:33:22 AM] started for file: 'f2.txt'
+[CACHE] [5/22/2026 7:33:22 AM] Read from cache f2.txt
+[Thread] [5/22/2026 7:33:22 AM] CACHE HIT  -> 'f2.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:22 AM] Results for file f1.txt saved
+[FileUtility] [5/22/2026 7:33:22 AM] Results for file f2.txt saved
+[Listener] [5/22/2026 7:33:22 AM] Heard a request
+[Thread] [5/22/2026 7:33:22 AM] started for file: 'f2.txt'
+[CACHE] [5/22/2026 7:33:22 AM] Read from cache f2.txt
+[Thread] [5/22/2026 7:33:22 AM] CACHE HIT  -> 'f2.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:22 AM] Results for file f2.txt saved
+[Listener] [5/22/2026 7:33:22 AM] Heard a request
+[Thread] [5/22/2026 7:33:22 AM] started for file: 'f3.txt'
+[CACHE] [5/22/2026 7:33:22 AM] Read from cache f3.txt
+[Thread] [5/22/2026 7:33:22 AM] CACHE HIT  -> 'f3.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:22 AM] Results for file f3.txt saved
+[Listener] [5/22/2026 7:33:22 AM] Heard a request
+[Thread] [5/22/2026 7:33:22 AM] started for file: 'f3.txt'
+[CACHE] [5/22/2026 7:33:22 AM] Read from cache f3.txt
+[Thread] [5/22/2026 7:33:22 AM] CACHE HIT  -> 'f3.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:22 AM] Results for file f3.txt saved
+[Listener] [5/22/2026 7:33:22 AM] Heard a request
+[Thread] [5/22/2026 7:33:22 AM] started for file: 'f3.txt'
+[CACHE] [5/22/2026 7:33:22 AM] Read from cache f3.txt
+[Thread] [5/22/2026 7:33:22 AM] CACHE HIT  -> 'f3.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:22 AM] Results for file f3.txt saved
+[Listener] [5/22/2026 7:33:22 AM] Heard a request
+[Listener] [5/22/2026 7:33:22 AM] Heard a request
+[Thread] [5/22/2026 7:33:22 AM] started for file: 'f4.txt'
+[CACHE] [5/22/2026 7:33:22 AM] Read from cache f4.txt
+[Thread] [5/22/2026 7:33:22 AM] CACHE HIT  -> 'f4.txt' (taken from cache)
+[Listener] [5/22/2026 7:33:22 AM] Heard a request
+[FileUtility] [5/22/2026 7:33:22 AM] Results for file f4.txt saved
+[Thread] [5/22/2026 7:33:22 AM] started for file: 'f4.txt'
+[CACHE] [5/22/2026 7:33:22 AM] Read from cache f4.txt
+[Thread] [5/22/2026 7:33:22 AM] CACHE HIT  -> 'f4.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:22 AM] Results for file f4.txt saved
+[Thread] [5/22/2026 7:33:22 AM] started for file: 'f4.txt'
+[CACHE] [5/22/2026 7:33:22 AM] Read from cache f4.txt
+[Thread] [5/22/2026 7:33:22 AM] CACHE HIT  -> 'f4.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:22 AM] Results for file f4.txt saved
+[Listener] [5/22/2026 7:33:22 AM] Heard a request
+[Thread] [5/22/2026 7:33:22 AM] started for file: 'f5.txt'
+[CACHE] [5/22/2026 7:33:22 AM] Read from cache f5.txt
+[Thread] [5/22/2026 7:33:22 AM] CACHE HIT  -> 'f5.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:22 AM] Results for file f5.txt saved
+[Listener] [5/22/2026 7:33:22 AM] Heard a request
+[Thread] [5/22/2026 7:33:22 AM] started for file: 'f5.txt'
+[CACHE] [5/22/2026 7:33:22 AM] Read from cache f5.txt
+[Thread] [5/22/2026 7:33:22 AM] CACHE HIT  -> 'f5.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:22 AM] Results for file f5.txt saved
+[Listener] [5/22/2026 7:33:22 AM] Heard a request
+[Thread] [5/22/2026 7:33:22 AM] started for file: 'f5.txt'
+[CACHE] [5/22/2026 7:33:22 AM] Read from cache f5.txt
+[Thread] [5/22/2026 7:33:22 AM] CACHE HIT  -> 'f5.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:22 AM] Results for file f5.txt saved
+[Listener] [5/22/2026 7:33:22 AM] Heard a request
+[Thread] [5/22/2026 7:33:22 AM] started for file: 'f6.txt'
+[CACHE] [5/22/2026 7:33:22 AM] Read from cache f6.txt
+[Thread] [5/22/2026 7:33:22 AM] CACHE HIT  -> 'f6.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:22 AM] Results for file f6.txt saved
+[Listener] [5/22/2026 7:33:22 AM] Heard a request
+[Thread] [5/22/2026 7:33:22 AM] started for file: 'f6.txt'
+[CACHE] [5/22/2026 7:33:22 AM] Read from cache f6.txt
+[Thread] [5/22/2026 7:33:22 AM] CACHE HIT  -> 'f6.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:22 AM] Results for file f6.txt saved
+[Listener] [5/22/2026 7:33:22 AM] Heard a request
+[Thread] [5/22/2026 7:33:22 AM] started for file: 'f6.txt'
+[CACHE] [5/22/2026 7:33:22 AM] Read from cache f6.txt
+[Thread] [5/22/2026 7:33:22 AM] CACHE HIT  -> 'f6.txt' (taken from cache)
+[Listener] [5/22/2026 7:33:22 AM] Heard a request
+[FileUtility] [5/22/2026 7:33:22 AM] Results for file f6.txt saved
+[Thread] [5/22/2026 7:33:22 AM] started for file: 'f7.txt'
+[CACHE] [5/22/2026 7:33:22 AM] Read from cache f7.txt
+[Thread] [5/22/2026 7:33:22 AM] CACHE HIT  -> 'f7.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:22 AM] Results for file f7.txt saved
+[Listener] [5/22/2026 7:33:22 AM] Heard a request
+[Thread] [5/22/2026 7:33:22 AM] started for file: 'f7.txt'
+[CACHE] [5/22/2026 7:33:22 AM] Read from cache f7.txt
+[Thread] [5/22/2026 7:33:22 AM] CACHE HIT  -> 'f7.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:22 AM] Results for file f7.txt saved
+[Listener] [5/22/2026 7:33:22 AM] Heard a request
+[Listener] [5/22/2026 7:33:22 AM] Heard a request
+[Thread] [5/22/2026 7:33:22 AM] started for file: 'f7.txt'
+[CACHE] [5/22/2026 7:33:22 AM] Read from cache f7.txt
+[Thread] [5/22/2026 7:33:22 AM] CACHE HIT  -> 'f7.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:22 AM] Results for file f7.txt saved
+[Listener] [5/22/2026 7:33:22 AM] Heard a request
+[Thread] [5/22/2026 7:33:22 AM] started for file: 'f8.txt'
+[CACHE] [5/22/2026 7:33:22 AM] Read from cache f8.txt
+[Thread] [5/22/2026 7:33:22 AM] CACHE HIT  -> 'f8.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:22 AM] Results for file f8.txt saved
+[Thread] [5/22/2026 7:33:22 AM] started for file: 'f8.txt'
+[CACHE] [5/22/2026 7:33:22 AM] Read from cache f8.txt
+[Thread] [5/22/2026 7:33:22 AM] CACHE HIT  -> 'f8.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:22 AM] Results for file f8.txt saved
+[Listener] [5/22/2026 7:33:22 AM] Heard a request
+[Listener] [5/22/2026 7:33:22 AM] Heard a request
+[Thread] [5/22/2026 7:33:22 AM] started for file: 'f8.txt'
+[CACHE] [5/22/2026 7:33:22 AM] Read from cache f8.txt
+[Thread] [5/22/2026 7:33:22 AM] CACHE HIT  -> 'f8.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:22 AM] Results for file f8.txt saved
+[Thread] [5/22/2026 7:33:22 AM] started for file: 'f9.txt'
+[CACHE] [5/22/2026 7:33:22 AM] Read from cache f9.txt
+[Thread] [5/22/2026 7:33:22 AM] CACHE HIT  -> 'f9.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:22 AM] Results for file f9.txt saved
+[Listener] [5/22/2026 7:33:22 AM] Heard a request
+[Listener] [5/22/2026 7:33:22 AM] Heard a request
+[Listener] [5/22/2026 7:33:22 AM] Heard a request
+[Listener] [5/22/2026 7:33:22 AM] Heard a request
+[Listener] [5/22/2026 7:33:22 AM] Heard a request
+[Thread] [5/22/2026 7:33:22 AM] started for file: 'f9.txt'
+[CACHE] [5/22/2026 7:33:22 AM] Read from cache f9.txt
+[Thread] [5/22/2026 7:33:22 AM] CACHE HIT  -> 'f9.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:22 AM] Results for file f9.txt saved
+[Thread] [5/22/2026 7:33:22 AM] started for file: 'f10.txt'
+[CACHE] [5/22/2026 7:33:22 AM] Read from cache f10.txt
+[Thread] [5/22/2026 7:33:22 AM] started for file: 'f10.txt'
+[CACHE] [5/22/2026 7:33:22 AM] Read from cache f10.txt
+[Thread] [5/22/2026 7:33:22 AM] CACHE HIT  -> 'f10.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:22 AM] Results for file f10.txt saved
+[Thread] [5/22/2026 7:33:22 AM] CACHE HIT  -> 'f10.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:22 AM] Results for file f10.txt saved
+[Thread] [5/22/2026 7:33:22 AM] started for file: 'f9.txt'
+[CACHE] [5/22/2026 7:33:22 AM] Read from cache f9.txt
+[Thread] [5/22/2026 7:33:22 AM] CACHE HIT  -> 'f9.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:22 AM] Results for file f9.txt saved
+[Thread] [5/22/2026 7:33:22 AM] started for file: 'f10.txt'
+[CACHE] [5/22/2026 7:33:22 AM] Read from cache f10.txt
+[Thread] [5/22/2026 7:33:22 AM] CACHE HIT  -> 'f10.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:33:22 AM] Results for file f10.txt saved
+[Listener] [5/22/2026 7:35:54 AM] Heard a request
+[Listener] [5/22/2026 7:35:54 AM] Heard a request
+[Listener] [5/22/2026 7:35:54 AM] Heard a request
+[Listener] [5/22/2026 7:35:54 AM] Heard a request
+[Listener] [5/22/2026 7:35:54 AM] Heard a request
+[Thread] [5/22/2026 7:35:54 AM] started for file: 'f1.txt'
+[CACHE] [5/22/2026 7:35:54 AM] From cache f1.txt info is stale
+[CACHE] [5/22/2026 7:35:54 AM] From cache f1.txt info is stale
+[Thread] [5/22/2026 7:35:54 AM] CACHE MISS -> 'f1.txt' (sending API request)
+[Thread] [5/22/2026 7:35:54 AM] started for file: 'f1.txt'
+[CACHE] [5/22/2026 7:35:54 AM] From cache f1.txt info is stale
+[Thread] [5/22/2026 7:35:54 AM] started for file: 'f1.txt'
+[CACHE] [5/22/2026 7:35:54 AM] From cache f1.txt info is stale
+[Listener] [5/22/2026 7:35:54 AM] Heard a request
+[Listener] [5/22/2026 7:35:54 AM] Heard a request
+[Listener] [5/22/2026 7:35:54 AM] Heard a request
+[Thread] [5/22/2026 7:35:54 AM] started for file: 'f2.txt'
+[CACHE] [5/22/2026 7:35:54 AM] From cache f2.txt info is stale
+[Listener] [5/22/2026 7:35:54 AM] Heard a request
+[Listener] [5/22/2026 7:35:54 AM] Heard a request
+[Listener] [5/22/2026 7:35:54 AM] Heard a request
+[Thread] [5/22/2026 7:35:54 AM] started for file: 'f2.txt'
+[CACHE] [5/22/2026 7:35:54 AM] From cache f2.txt info is stale
+[CACHE] [5/22/2026 7:35:54 AM] Overwritten in cache f1.txt
+[Thread] [5/22/2026 7:35:54 AM] Result stored in cache for query: 'f1.txt'
+[FileUtility] [5/22/2026 7:35:54 AM] Results for file f1.txt saved
+[CACHE] [5/22/2026 7:35:54 AM] Read from cache f1.txt
+[Thread] [5/22/2026 7:35:54 AM] CACHE HIT  -> 'f1.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:35:54 AM] Results for file f1.txt saved
+[CACHE] [5/22/2026 7:35:54 AM] Read from cache f1.txt
+[Thread] [5/22/2026 7:35:54 AM] CACHE HIT  -> 'f1.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:35:54 AM] Results for file f1.txt saved
+[CACHE] [5/22/2026 7:35:54 AM] From cache f2.txt info is stale
+[Thread] [5/22/2026 7:35:54 AM] CACHE MISS -> 'f2.txt' (sending API request)
+[Thread] [5/22/2026 7:35:54 AM] started for file: 'f3.txt'
+[CACHE] [5/22/2026 7:35:54 AM] From cache f3.txt info is stale
+[Thread] [5/22/2026 7:35:54 AM] started for file: 'f3.txt'
+[CACHE] [5/22/2026 7:35:54 AM] From cache f3.txt info is stale
+[Listener] [5/22/2026 7:35:54 AM] Heard a request
+[Thread] [5/22/2026 7:35:54 AM] started for file: 'f3.txt'
+[CACHE] [5/22/2026 7:35:54 AM] From cache f3.txt info is stale
+[Listener] [5/22/2026 7:35:54 AM] Heard a request
+[Thread] [5/22/2026 7:35:54 AM] started for file: 'f2.txt'
+[CACHE] [5/22/2026 7:35:54 AM] From cache f2.txt info is stale
+[Thread] [5/22/2026 7:35:54 AM] started for file: 'f4.txt'
+[CACHE] [5/22/2026 7:35:54 AM] From cache f4.txt info is stale
+[Thread] [5/22/2026 7:35:54 AM] started for file: 'f4.txt'
+[CACHE] [5/22/2026 7:35:54 AM] From cache f4.txt info is stale
+[Thread] [5/22/2026 7:35:54 AM] started for file: 'f4.txt'
+[CACHE] [5/22/2026 7:35:54 AM] From cache f4.txt info is stale
+[Thread] [5/22/2026 7:35:54 AM] started for file: 'f5.txt'
+[CACHE] [5/22/2026 7:35:54 AM] From cache f5.txt info is stale
+[Listener] [5/22/2026 7:35:54 AM] Heard a request
+[Listener] [5/22/2026 7:35:54 AM] Heard a request
+[Listener] [5/22/2026 7:35:54 AM] Heard a request
+[Listener] [5/22/2026 7:35:54 AM] Heard a request
+[Listener] [5/22/2026 7:35:54 AM] Heard a request
+[Listener] [5/22/2026 7:35:54 AM] Heard a request
+[Listener] [5/22/2026 7:35:54 AM] Heard a request
+[Listener] [5/22/2026 7:35:54 AM] Heard a request
+[Listener] [5/22/2026 7:35:54 AM] Heard a request
+[Listener] [5/22/2026 7:35:54 AM] Heard a request
+[Listener] [5/22/2026 7:35:54 AM] Heard a request
+[Listener] [5/22/2026 7:35:54 AM] Heard a request
+[Listener] [5/22/2026 7:35:54 AM] Heard a request
+[Listener] [5/22/2026 7:35:54 AM] Heard a request
+[Listener] [5/22/2026 7:35:54 AM] Heard a request
+[Listener] [5/22/2026 7:35:54 AM] Heard a request
+[Listener] [5/22/2026 7:35:54 AM] Heard a request
+[CACHE] [5/22/2026 7:35:54 AM] Overwritten in cache f2.txt
+[Thread] [5/22/2026 7:35:54 AM] Result stored in cache for query: 'f2.txt'
+[FileUtility] [5/22/2026 7:35:54 AM] Results for file f2.txt saved
+[CACHE] [5/22/2026 7:35:54 AM] Read from cache f2.txt
+[Thread] [5/22/2026 7:35:54 AM] CACHE HIT  -> 'f2.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:35:54 AM] Results for file f2.txt saved
+[CACHE] [5/22/2026 7:35:54 AM] From cache f3.txt info is stale
+[Thread] [5/22/2026 7:35:54 AM] CACHE MISS -> 'f3.txt' (sending API request)
+[CACHE] [5/22/2026 7:35:54 AM] Overwritten in cache f3.txt
+[Thread] [5/22/2026 7:35:54 AM] Result stored in cache for query: 'f3.txt'
+[FileUtility] [5/22/2026 7:35:54 AM] Results for file f3.txt saved
+[CACHE] [5/22/2026 7:35:54 AM] Read from cache f3.txt
+[Thread] [5/22/2026 7:35:54 AM] CACHE HIT  -> 'f3.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:35:54 AM] Results for file f3.txt saved
+[CACHE] [5/22/2026 7:35:54 AM] Read from cache f3.txt
+[Thread] [5/22/2026 7:35:54 AM] CACHE HIT  -> 'f3.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:35:54 AM] Results for file f3.txt saved
+[CACHE] [5/22/2026 7:35:54 AM] Read from cache f2.txt
+[Thread] [5/22/2026 7:35:54 AM] CACHE HIT  -> 'f2.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:35:54 AM] Results for file f2.txt saved
+[CACHE] [5/22/2026 7:35:54 AM] From cache f4.txt info is stale
+[Thread] [5/22/2026 7:35:54 AM] CACHE MISS -> 'f4.txt' (sending API request)
+[Thread] [5/22/2026 7:35:54 AM] started for file: 'f5.txt'
+[CACHE] [5/22/2026 7:35:54 AM] From cache f5.txt info is stale
+[Thread] [5/22/2026 7:35:54 AM] started for file: 'f6.txt'
+[Thread] [5/22/2026 7:35:54 AM] started for file: 'f5.txt'
+[CACHE] [5/22/2026 7:35:54 AM] From cache f5.txt info is stale
+[Thread] [5/22/2026 7:35:54 AM] started for file: 'f6.txt'
+[Thread] [5/22/2026 7:35:54 AM] started for file: 'f7.txt'
+[CACHE] [5/22/2026 7:35:54 AM] From cache f7.txt info is stale
+[CACHE] [5/22/2026 7:35:54 AM] From cache f6.txt info is stale
+[CACHE] [5/22/2026 7:35:54 AM] From cache f6.txt info is stale
+[Thread] [5/22/2026 7:35:54 AM] started for file: 'f7.txt'
+[CACHE] [5/22/2026 7:35:54 AM] From cache f7.txt info is stale
+[CACHE] [5/22/2026 7:35:54 AM] Overwritten in cache f4.txt
+[Thread] [5/22/2026 7:35:54 AM] Result stored in cache for query: 'f4.txt'
+[FileUtility] [5/22/2026 7:35:54 AM] Results for file f4.txt saved
+[CACHE] [5/22/2026 7:35:54 AM] Read from cache f4.txt
+[Thread] [5/22/2026 7:35:54 AM] CACHE HIT  -> 'f4.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:35:54 AM] Results for file f4.txt saved
+[CACHE] [5/22/2026 7:35:54 AM] Read from cache f4.txt
+[Thread] [5/22/2026 7:35:54 AM] CACHE HIT  -> 'f4.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:35:54 AM] Results for file f4.txt saved
+[CACHE] [5/22/2026 7:35:54 AM] From cache f5.txt info is stale
+[Thread] [5/22/2026 7:35:54 AM] CACHE MISS -> 'f5.txt' (sending API request)
+[CACHE] [5/22/2026 7:35:54 AM] Overwritten in cache f5.txt
+[Thread] [5/22/2026 7:35:54 AM] Result stored in cache for query: 'f5.txt'
+[FileUtility] [5/22/2026 7:35:54 AM] Results for file f5.txt saved
+[CACHE] [5/22/2026 7:35:54 AM] Read from cache f5.txt
+[Thread] [5/22/2026 7:35:54 AM] CACHE HIT  -> 'f5.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:35:54 AM] Results for file f5.txt saved
+[CACHE] [5/22/2026 7:35:54 AM] Read from cache f5.txt
+[Thread] [5/22/2026 7:35:54 AM] CACHE HIT  -> 'f5.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:35:54 AM] Results for file f5.txt saved
+[CACHE] [5/22/2026 7:35:54 AM] From cache f7.txt info is stale
+[Thread] [5/22/2026 7:35:54 AM] CACHE MISS -> 'f7.txt' (sending API request)
+[Thread] [5/22/2026 7:35:54 AM] started for file: 'f8.txt'
+[CACHE] [5/22/2026 7:35:54 AM] From cache f8.txt info is stale
+[Thread] [5/22/2026 7:35:54 AM] started for file: 'f6.txt'
+[CACHE] [5/22/2026 7:35:54 AM] From cache f6.txt info is stale
+[Thread] [5/22/2026 7:35:54 AM] started for file: 'f7.txt'
+[CACHE] [5/22/2026 7:35:54 AM] From cache f7.txt info is stale
+[Thread] [5/22/2026 7:35:54 AM] started for file: 'f8.txt'
+[CACHE] [5/22/2026 7:35:54 AM] From cache f8.txt info is stale
+[Thread] [5/22/2026 7:35:54 AM] started for file: 'f8.txt'
+[CACHE] [5/22/2026 7:35:54 AM] From cache f8.txt info is stale
+[Thread] [5/22/2026 7:35:54 AM] started for file: 'f9.txt'
+[CACHE] [5/22/2026 7:35:54 AM] From cache f9.txt info is stale
+[CACHE] [5/22/2026 7:35:54 AM] Overwritten in cache f7.txt
+[Thread] [5/22/2026 7:35:54 AM] Result stored in cache for query: 'f7.txt'
+[FileUtility] [5/22/2026 7:35:54 AM] Results for file f7.txt saved
+[CACHE] [5/22/2026 7:35:54 AM] From cache f6.txt info is stale
+[Thread] [5/22/2026 7:35:54 AM] CACHE MISS -> 'f6.txt' (sending API request)
+[CACHE] [5/22/2026 7:35:54 AM] Overwritten in cache f6.txt
+[Thread] [5/22/2026 7:35:54 AM] Result stored in cache for query: 'f6.txt'
+[FileUtility] [5/22/2026 7:35:54 AM] Results for file f6.txt saved
+[CACHE] [5/22/2026 7:35:54 AM] Read from cache f6.txt
+[Thread] [5/22/2026 7:35:54 AM] CACHE HIT  -> 'f6.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:35:54 AM] Results for file f6.txt saved
+[CACHE] [5/22/2026 7:35:54 AM] Read from cache f7.txt
+[Thread] [5/22/2026 7:35:54 AM] CACHE HIT  -> 'f7.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:35:54 AM] Results for file f7.txt saved
+[CACHE] [5/22/2026 7:35:54 AM] From cache f8.txt info is stale
+[Thread] [5/22/2026 7:35:54 AM] CACHE MISS -> 'f8.txt' (sending API request)
+[Thread] [5/22/2026 7:35:54 AM] started for file: 'f9.txt'
+[CACHE] [5/22/2026 7:35:54 AM] From cache f9.txt info is stale
+[Thread] [5/22/2026 7:35:54 AM] started for file: 'f10.txt'
+[CACHE] [5/22/2026 7:35:54 AM] From cache f10.txt info is stale
+[Thread] [5/22/2026 7:35:54 AM] started for file: 'f9.txt'
+[CACHE] [5/22/2026 7:35:54 AM] From cache f9.txt info is stale
+[Thread] [5/22/2026 7:35:54 AM] started for file: 'f10.txt'
+[CACHE] [5/22/2026 7:35:54 AM] From cache f10.txt info is stale
+[CACHE] [5/22/2026 7:35:54 AM] Overwritten in cache f8.txt
+[Thread] [5/22/2026 7:35:54 AM] Result stored in cache for query: 'f8.txt'
+[FileUtility] [5/22/2026 7:35:54 AM] Results for file f8.txt saved
+[CACHE] [5/22/2026 7:35:54 AM] Read from cache f6.txt
+[Thread] [5/22/2026 7:35:54 AM] CACHE HIT  -> 'f6.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:35:54 AM] Results for file f6.txt saved
+[CACHE] [5/22/2026 7:35:54 AM] Read from cache f7.txt
+[Thread] [5/22/2026 7:35:54 AM] CACHE HIT  -> 'f7.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:35:54 AM] Results for file f7.txt saved
+[CACHE] [5/22/2026 7:35:54 AM] Read from cache f8.txt
+[Thread] [5/22/2026 7:35:54 AM] CACHE HIT  -> 'f8.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:35:54 AM] Results for file f8.txt saved
+[CACHE] [5/22/2026 7:35:54 AM] Read from cache f8.txt
+[Thread] [5/22/2026 7:35:54 AM] CACHE HIT  -> 'f8.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:35:54 AM] Results for file f8.txt saved
+[CACHE] [5/22/2026 7:35:54 AM] From cache f9.txt info is stale
+[Thread] [5/22/2026 7:35:54 AM] CACHE MISS -> 'f9.txt' (sending API request)
+[CACHE] [5/22/2026 7:35:54 AM] Overwritten in cache f9.txt
+[Thread] [5/22/2026 7:35:54 AM] Result stored in cache for query: 'f9.txt'
+[FileUtility] [5/22/2026 7:35:54 AM] Results for file f9.txt saved
+[CACHE] [5/22/2026 7:35:54 AM] Read from cache f9.txt
+[Thread] [5/22/2026 7:35:54 AM] CACHE HIT  -> 'f9.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:35:54 AM] Results for file f9.txt saved
+[CACHE] [5/22/2026 7:35:54 AM] From cache f10.txt info is stale
+[Thread] [5/22/2026 7:35:54 AM] CACHE MISS -> 'f10.txt' (sending API request)
+[Thread] [5/22/2026 7:35:54 AM] started for file: 'f10.txt'
+[CACHE] [5/22/2026 7:35:54 AM] From cache f10.txt info is stale
+[CACHE] [5/22/2026 7:35:54 AM] Overwritten in cache f10.txt
+[Thread] [5/22/2026 7:35:54 AM] Result stored in cache for query: 'f10.txt'
+[FileUtility] [5/22/2026 7:35:54 AM] Results for file f10.txt saved
+[CACHE] [5/22/2026 7:35:54 AM] Read from cache f9.txt
+[Thread] [5/22/2026 7:35:54 AM] CACHE HIT  -> 'f9.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:35:54 AM] Results for file f9.txt saved
+[CACHE] [5/22/2026 7:35:54 AM] Read from cache f10.txt
+[Thread] [5/22/2026 7:35:54 AM] CACHE HIT  -> 'f10.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:35:54 AM] Results for file f10.txt saved
+[CACHE] [5/22/2026 7:35:54 AM] Read from cache f10.txt
+[Thread] [5/22/2026 7:35:54 AM] CACHE HIT  -> 'f10.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:35:54 AM] Results for file f10.txt saved
+[Listener] [5/22/2026 7:36:03 AM] Heard a request
+[Listener] [5/22/2026 7:36:03 AM] Heard a request
+[Thread] [5/22/2026 7:36:03 AM] started for file: 'f1.txt'
+[CACHE] [5/22/2026 7:36:03 AM] Read from cache f1.txt
+[Thread] [5/22/2026 7:36:03 AM] CACHE HIT  -> 'f1.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:36:03 AM] Results for file f1.txt saved
+[Thread] [5/22/2026 7:36:03 AM] started for file: 'f1.txt'
+[CACHE] [5/22/2026 7:36:03 AM] Read from cache f1.txt
+[Thread] [5/22/2026 7:36:03 AM] CACHE HIT  -> 'f1.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:36:03 AM] Results for file f1.txt saved
+[Listener] [5/22/2026 7:36:03 AM] Heard a request
+[Thread] [5/22/2026 7:36:03 AM] started for file: 'f2.txt'
+[CACHE] [5/22/2026 7:36:03 AM] Read from cache f2.txt
+[Thread] [5/22/2026 7:36:03 AM] CACHE HIT  -> 'f2.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:36:03 AM] Results for file f2.txt saved
+[Listener] [5/22/2026 7:36:03 AM] Heard a request
+[Listener] [5/22/2026 7:36:03 AM] Heard a request
+[Thread] [5/22/2026 7:36:03 AM] started for file: 'f1.txt'
+[Thread] [5/22/2026 7:36:03 AM] started for file: 'f2.txt'
+[CACHE] [5/22/2026 7:36:03 AM] Read from cache f2.txt
+[Thread] [5/22/2026 7:36:03 AM] CACHE HIT  -> 'f2.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:36:03 AM] Results for file f2.txt saved
+[CACHE] [5/22/2026 7:36:03 AM] Read from cache f1.txt
+[Thread] [5/22/2026 7:36:03 AM] CACHE HIT  -> 'f1.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:36:03 AM] Results for file f1.txt saved
+[Listener] [5/22/2026 7:36:03 AM] Heard a request
+[Thread] [5/22/2026 7:36:03 AM] started for file: 'f3.txt'
+[CACHE] [5/22/2026 7:36:03 AM] Read from cache f3.txt
+[Thread] [5/22/2026 7:36:03 AM] CACHE HIT  -> 'f3.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:36:03 AM] Results for file f3.txt saved
+[Listener] [5/22/2026 7:36:03 AM] Heard a request
+[Listener] [5/22/2026 7:36:03 AM] Heard a request
+[Thread] [5/22/2026 7:36:03 AM] started for file: 'f3.txt'
+[CACHE] [5/22/2026 7:36:03 AM] Read from cache f3.txt
+[Thread] [5/22/2026 7:36:03 AM] CACHE HIT  -> 'f3.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:36:03 AM] Results for file f3.txt saved
+[Thread] [5/22/2026 7:36:03 AM] started for file: 'f2.txt'
+[CACHE] [5/22/2026 7:36:03 AM] Read from cache f2.txt
+[Thread] [5/22/2026 7:36:03 AM] CACHE HIT  -> 'f2.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:36:03 AM] Results for file f2.txt saved
+[Listener] [5/22/2026 7:36:03 AM] Heard a request
+[Listener] [5/22/2026 7:36:03 AM] Heard a request
+[Thread] [5/22/2026 7:36:03 AM] started for file: 'f3.txt'
+[CACHE] [5/22/2026 7:36:03 AM] Read from cache f3.txt
+[Thread] [5/22/2026 7:36:03 AM] CACHE HIT  -> 'f3.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:36:03 AM] Results for file f3.txt saved
+[Listener] [5/22/2026 7:36:03 AM] Heard a request
+[Thread] [5/22/2026 7:36:03 AM] started for file: 'f4.txt'
+[CACHE] [5/22/2026 7:36:03 AM] Read from cache f4.txt
+[Thread] [5/22/2026 7:36:03 AM] CACHE HIT  -> 'f4.txt' (taken from cache)
+[Thread] [5/22/2026 7:36:03 AM] started for file: 'f4.txt'
+[CACHE] [5/22/2026 7:36:03 AM] Read from cache f4.txt
+[Thread] [5/22/2026 7:36:03 AM] CACHE HIT  -> 'f4.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:36:03 AM] Results for file f4.txt saved
+[FileUtility] [5/22/2026 7:36:03 AM] Results for file f4.txt saved
+[Listener] [5/22/2026 7:36:03 AM] Heard a request
+[Thread] [5/22/2026 7:36:03 AM] started for file: 'f4.txt'
+[CACHE] [5/22/2026 7:36:03 AM] Read from cache f4.txt
+[Thread] [5/22/2026 7:36:03 AM] CACHE HIT  -> 'f4.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:36:03 AM] Results for file f4.txt saved
+[Listener] [5/22/2026 7:36:03 AM] Heard a request
+[Thread] [5/22/2026 7:36:03 AM] started for file: 'f5.txt'
+[CACHE] [5/22/2026 7:36:03 AM] Read from cache f5.txt
+[Thread] [5/22/2026 7:36:03 AM] CACHE HIT  -> 'f5.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:36:03 AM] Results for file f5.txt saved
+[Listener] [5/22/2026 7:36:03 AM] Heard a request
+[Thread] [5/22/2026 7:36:03 AM] started for file: 'f5.txt'
+[CACHE] [5/22/2026 7:36:03 AM] Read from cache f5.txt
+[Thread] [5/22/2026 7:36:03 AM] CACHE HIT  -> 'f5.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:36:03 AM] Results for file f5.txt saved
+[Listener] [5/22/2026 7:36:03 AM] Heard a request
+[Thread] [5/22/2026 7:36:03 AM] started for file: 'f5.txt'
+[CACHE] [5/22/2026 7:36:03 AM] Read from cache f5.txt
+[Thread] [5/22/2026 7:36:03 AM] CACHE HIT  -> 'f5.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:36:03 AM] Results for file f5.txt saved
+[Listener] [5/22/2026 7:36:03 AM] Heard a request
+[Thread] [5/22/2026 7:36:03 AM] started for file: 'f6.txt'
+[CACHE] [5/22/2026 7:36:03 AM] Read from cache f6.txt
+[Thread] [5/22/2026 7:36:03 AM] CACHE HIT  -> 'f6.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:36:03 AM] Results for file f6.txt saved
+[Listener] [5/22/2026 7:36:03 AM] Heard a request
+[Listener] [5/22/2026 7:36:03 AM] Heard a request
+[Thread] [5/22/2026 7:36:03 AM] started for file: 'f6.txt'
+[CACHE] [5/22/2026 7:36:03 AM] Read from cache f6.txt
+[Thread] [5/22/2026 7:36:03 AM] CACHE HIT  -> 'f6.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:36:03 AM] Results for file f6.txt saved
+[Listener] [5/22/2026 7:36:03 AM] Heard a request
+[Thread] [5/22/2026 7:36:03 AM] started for file: 'f6.txt'
+[CACHE] [5/22/2026 7:36:03 AM] Read from cache f6.txt
+[Thread] [5/22/2026 7:36:03 AM] CACHE HIT  -> 'f6.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:36:03 AM] Results for file f6.txt saved
+[Thread] [5/22/2026 7:36:03 AM] started for file: 'f7.txt'
+[CACHE] [5/22/2026 7:36:03 AM] Read from cache f7.txt
+[Thread] [5/22/2026 7:36:03 AM] CACHE HIT  -> 'f7.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:36:03 AM] Results for file f7.txt saved
+[Listener] [5/22/2026 7:36:03 AM] Heard a request
+[Listener] [5/22/2026 7:36:03 AM] Heard a request
+[Listener] [5/22/2026 7:36:03 AM] Heard a request
+[Thread] [5/22/2026 7:36:03 AM] started for file: 'f8.txt'
+[CACHE] [5/22/2026 7:36:03 AM] Read from cache f8.txt
+[Thread] [5/22/2026 7:36:03 AM] CACHE HIT  -> 'f8.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:36:03 AM] Results for file f8.txt saved
+[Thread] [5/22/2026 7:36:03 AM] started for file: 'f7.txt'
+[CACHE] [5/22/2026 7:36:03 AM] Read from cache f7.txt
+[Thread] [5/22/2026 7:36:03 AM] CACHE HIT  -> 'f7.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:36:03 AM] Results for file f7.txt saved
+[Thread] [5/22/2026 7:36:03 AM] started for file: 'f7.txt'
+[CACHE] [5/22/2026 7:36:03 AM] Read from cache f7.txt
+[Thread] [5/22/2026 7:36:03 AM] CACHE HIT  -> 'f7.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:36:03 AM] Results for file f7.txt saved
+[Listener] [5/22/2026 7:36:03 AM] Heard a request
+[Listener] [5/22/2026 7:36:03 AM] Heard a request
+[Listener] [5/22/2026 7:36:03 AM] Heard a request
+[Thread] [5/22/2026 7:36:03 AM] started for file: 'f8.txt'
+[CACHE] [5/22/2026 7:36:03 AM] Read from cache f8.txt
+[Thread] [5/22/2026 7:36:03 AM] CACHE HIT  -> 'f8.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:36:03 AM] Results for file f8.txt saved
+[Thread] [5/22/2026 7:36:03 AM] started for file: 'f9.txt'
+[CACHE] [5/22/2026 7:36:03 AM] Read from cache f9.txt
+[Thread] [5/22/2026 7:36:03 AM] CACHE HIT  -> 'f9.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:36:03 AM] Results for file f9.txt saved
+[Thread] [5/22/2026 7:36:03 AM] started for file: 'f8.txt'
+[CACHE] [5/22/2026 7:36:03 AM] Read from cache f8.txt
+[Thread] [5/22/2026 7:36:03 AM] CACHE HIT  -> 'f8.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:36:03 AM] Results for file f8.txt saved
+[Listener] [5/22/2026 7:36:03 AM] Heard a request
+[Thread] [5/22/2026 7:36:03 AM] started for file: 'f9.txt'
+[CACHE] [5/22/2026 7:36:03 AM] Read from cache f9.txt
+[Thread] [5/22/2026 7:36:03 AM] CACHE HIT  -> 'f9.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:36:03 AM] Results for file f9.txt saved
+[Listener] [5/22/2026 7:36:03 AM] Heard a request
+[Listener] [5/22/2026 7:36:03 AM] Heard a request
+[Thread] [5/22/2026 7:36:03 AM] started for file: 'f9.txt'
+[CACHE] [5/22/2026 7:36:03 AM] Read from cache f9.txt
+[Thread] [5/22/2026 7:36:03 AM] CACHE HIT  -> 'f9.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:36:03 AM] Results for file f9.txt saved
+[Thread] [5/22/2026 7:36:03 AM] started for file: 'f10.txt'
+[CACHE] [5/22/2026 7:36:03 AM] Read from cache f10.txt
+[Thread] [5/22/2026 7:36:03 AM] CACHE HIT  -> 'f10.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:36:03 AM] Results for file f10.txt saved
+[Listener] [5/22/2026 7:36:03 AM] Heard a request
+[Listener] [5/22/2026 7:36:03 AM] Heard a request
+[Thread] [5/22/2026 7:36:03 AM] started for file: 'f10.txt'
+[CACHE] [5/22/2026 7:36:03 AM] Read from cache f10.txt
+[Thread] [5/22/2026 7:36:03 AM] CACHE HIT  -> 'f10.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:36:03 AM] Results for file f10.txt saved
+[Thread] [5/22/2026 7:36:03 AM] started for file: 'f10.txt'
+[CACHE] [5/22/2026 7:36:03 AM] Read from cache f10.txt
+[Thread] [5/22/2026 7:36:03 AM] CACHE HIT  -> 'f10.txt' (taken from cache)
+[FileUtility] [5/22/2026 7:36:03 AM] Results for file f10.txt saved
+
+[ApiService] [5/22/2026 7:36:19 AM] SIGINT called
+[ApiService] [5/22/2026 7:36:19 AM] Error: Thread unjoinable - Thread has not been started.
+[ApiService] [5/22/2026 8:49:56 AM] Started up!
+[Listener] [5/22/2026 8:50:07 AM] Heard a request
+[Thread] [5/22/2026 8:50:07 AM] started for file: 'f2.txt'
+[Listener] [5/22/2026 8:50:07 AM] Heard a request
+[Listener] [5/22/2026 8:50:07 AM] Heard a request
+[Listener] [5/22/2026 8:50:07 AM] Heard a request
+[Listener] [5/22/2026 8:50:07 AM] Heard a request
+[Listener] [5/22/2026 8:50:07 AM] Heard a request
+[Listener] [5/22/2026 8:50:07 AM] Heard a request
+[Listener] [5/22/2026 8:50:07 AM] Heard a request
+[Listener] [5/22/2026 8:50:07 AM] Heard a request
+[Listener] [5/22/2026 8:50:07 AM] Heard a request
+[Listener] [5/22/2026 8:50:07 AM] Heard a request
+[Listener] [5/22/2026 8:50:07 AM] Heard a request
+[Listener] [5/22/2026 8:50:07 AM] Heard a request
+[Listener] [5/22/2026 8:50:07 AM] Heard a request
+[Listener] [5/22/2026 8:50:07 AM] Heard a request
+[Listener] [5/22/2026 8:50:07 AM] Heard a request
+[Listener] [5/22/2026 8:50:07 AM] Heard a request
+[Listener] [5/22/2026 8:50:07 AM] Heard a request
+[Thread] [5/22/2026 8:50:07 AM] started for file: 'f1.txt'
+[Thread] [5/22/2026 8:50:07 AM] CACHE MISS -> 'f2.txt' (sending API request)
+[Thread] [5/22/2026 8:50:07 AM] started for file: 'f1.txt'
+[Listener] [5/22/2026 8:50:07 AM] Heard a request
+[Listener] [5/22/2026 8:50:07 AM] Heard a request
+[Listener] [5/22/2026 8:50:07 AM] Heard a request
+[Thread] [5/22/2026 8:50:07 AM] started for file: 'f3.txt'
+[Thread] [5/22/2026 8:50:07 AM] started for file: 'f1.txt'
+[Listener] [5/22/2026 8:50:07 AM] Heard a request
+[Listener] [5/22/2026 8:50:07 AM] Heard a request
+[Listener] [5/22/2026 8:50:07 AM] Heard a request
+[Thread] [5/22/2026 8:50:07 AM] started for file: 'f2.txt'
+[Listener] [5/22/2026 8:50:07 AM] Heard a request
+[Listener] [5/22/2026 8:50:07 AM] Heard a request
+[Listener] [5/22/2026 8:50:07 AM] Heard a request
+[Thread] [5/22/2026 8:50:07 AM] started for file: 'f2.txt'
+[Thread] [5/22/2026 8:50:07 AM] started for file: 'f3.txt'
+[Thread] [5/22/2026 8:50:07 AM] started for file: 'f4.txt'
+[Thread] [5/22/2026 8:50:07 AM] started for file: 'f3.txt'
+[Listener] [5/22/2026 8:50:07 AM] Heard a request
+[Listener] [5/22/2026 8:50:07 AM] Heard a request
+[Listener] [5/22/2026 8:50:07 AM] Heard a request
+[CACHE] [5/22/2026 8:50:07 AM] Added to cache f2.txt
+[Thread] [5/22/2026 8:50:07 AM] Result stored in cache for query: 'f2.txt'
+[FileUtility] [5/22/2026 8:50:07 AM] Results for file f2.txt saved
+[Thread] [5/22/2026 8:50:07 AM] CACHE MISS -> 'f1.txt' (sending API request)
+[Thread] [5/22/2026 8:50:07 AM] started for file: 'f4.txt'
+[CACHE] [5/22/2026 8:50:08 AM] Added to cache f1.txt
+[Thread] [5/22/2026 8:50:08 AM] Result stored in cache for query: 'f1.txt'
+[FileUtility] [5/22/2026 8:50:08 AM] Results for file f1.txt saved
+[CACHE] [5/22/2026 8:50:08 AM] Read from cache f1.txt
+[Thread] [5/22/2026 8:50:08 AM] CACHE HIT  -> 'f1.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:50:08 AM] Results for file f1.txt saved
+[Thread] [5/22/2026 8:50:08 AM] CACHE MISS -> 'f3.txt' (sending API request)
+[Thread] [5/22/2026 8:50:08 AM] started for file: 'f4.txt'
+[Thread] [5/22/2026 8:50:08 AM] started for file: 'f5.txt'
+[CACHE] [5/22/2026 8:50:08 AM] Added to cache f3.txt
+[Thread] [5/22/2026 8:50:08 AM] Result stored in cache for query: 'f3.txt'
+[FileUtility] [5/22/2026 8:50:08 AM] Results for file f3.txt saved
+[CACHE] [5/22/2026 8:50:08 AM] Read from cache f1.txt
+[Thread] [5/22/2026 8:50:08 AM] CACHE HIT  -> 'f1.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:50:08 AM] Results for file f1.txt saved
+[CACHE] [5/22/2026 8:50:08 AM] Read from cache f2.txt
+[Thread] [5/22/2026 8:50:08 AM] CACHE HIT  -> 'f2.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:50:08 AM] Results for file f2.txt saved
+[CACHE] [5/22/2026 8:50:08 AM] Read from cache f2.txt
+[Thread] [5/22/2026 8:50:08 AM] CACHE HIT  -> 'f2.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:50:08 AM] Results for file f2.txt saved
+[CACHE] [5/22/2026 8:50:08 AM] Read from cache f3.txt
+[Thread] [5/22/2026 8:50:08 AM] CACHE HIT  -> 'f3.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:50:08 AM] Results for file f3.txt saved
+[Thread] [5/22/2026 8:50:08 AM] CACHE MISS -> 'f4.txt' (sending API request)
+[Thread] [5/22/2026 8:50:08 AM] started for file: 'f5.txt'
+[Thread] [5/22/2026 8:50:08 AM] started for file: 'f5.txt'
+[Thread] [5/22/2026 8:50:08 AM] started for file: 'f6.txt'
+[Thread] [5/22/2026 8:50:08 AM] started for file: 'f6.txt'
+[Thread] [5/22/2026 8:50:08 AM] started for file: 'f6.txt'
+[CACHE] [5/22/2026 8:50:08 AM] Added to cache f4.txt
+[Thread] [5/22/2026 8:50:08 AM] Result stored in cache for query: 'f4.txt'
+[FileUtility] [5/22/2026 8:50:08 AM] Results for file f4.txt saved
+[CACHE] [5/22/2026 8:50:08 AM] Read from cache f3.txt
+[Thread] [5/22/2026 8:50:08 AM] CACHE HIT  -> 'f3.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:50:08 AM] Results for file f3.txt saved
+[CACHE] [5/22/2026 8:50:08 AM] Read from cache f4.txt
+[Thread] [5/22/2026 8:50:08 AM] CACHE HIT  -> 'f4.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:50:08 AM] Results for file f4.txt saved
+[CACHE] [5/22/2026 8:50:08 AM] Read from cache f4.txt
+[Thread] [5/22/2026 8:50:08 AM] CACHE HIT  -> 'f4.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:50:08 AM] Results for file f4.txt saved
+[Thread] [5/22/2026 8:50:08 AM] CACHE MISS -> 'f5.txt' (sending API request)
+[Thread] [5/22/2026 8:50:08 AM] started for file: 'f7.txt'
+[Thread] [5/22/2026 8:50:08 AM] started for file: 'f7.txt'
+[Thread] [5/22/2026 8:50:08 AM] started for file: 'f7.txt'
+[Thread] [5/22/2026 8:50:08 AM] started for file: 'f8.txt'
+[CACHE] [5/22/2026 8:50:08 AM] Added to cache f5.txt
+[Thread] [5/22/2026 8:50:08 AM] Result stored in cache for query: 'f5.txt'
+[FileUtility] [5/22/2026 8:50:08 AM] Results for file f5.txt saved
+[CACHE] [5/22/2026 8:50:08 AM] Read from cache f5.txt
+[Thread] [5/22/2026 8:50:08 AM] CACHE HIT  -> 'f5.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:50:08 AM] Results for file f5.txt saved
+[CACHE] [5/22/2026 8:50:08 AM] Read from cache f5.txt
+[Thread] [5/22/2026 8:50:08 AM] CACHE HIT  -> 'f5.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:50:08 AM] Results for file f5.txt saved
+[Thread] [5/22/2026 8:50:08 AM] CACHE MISS -> 'f6.txt' (sending API request)
+[CACHE] [5/22/2026 8:50:08 AM] Added to cache f6.txt
+[Thread] [5/22/2026 8:50:08 AM] Result stored in cache for query: 'f6.txt'
+[FileUtility] [5/22/2026 8:50:08 AM] Results for file f6.txt saved
+[CACHE] [5/22/2026 8:50:08 AM] Read from cache f6.txt
+[Thread] [5/22/2026 8:50:08 AM] CACHE HIT  -> 'f6.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:50:08 AM] Results for file f6.txt saved
+[CACHE] [5/22/2026 8:50:08 AM] Read from cache f6.txt
+[Thread] [5/22/2026 8:50:08 AM] CACHE HIT  -> 'f6.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:50:08 AM] Results for file f6.txt saved
+[Thread] [5/22/2026 8:50:08 AM] CACHE MISS -> 'f7.txt' (sending API request)
+[Thread] [5/22/2026 8:50:08 AM] started for file: 'f8.txt'
+[Thread] [5/22/2026 8:50:08 AM] started for file: 'f8.txt'
+[Thread] [5/22/2026 8:50:08 AM] started for file: 'f9.txt'
+[Thread] [5/22/2026 8:50:08 AM] started for file: 'f9.txt'
+[Thread] [5/22/2026 8:50:08 AM] started for file: 'f9.txt'
+[Thread] [5/22/2026 8:50:08 AM] started for file: 'f10.txt'
+[CACHE] [5/22/2026 8:50:08 AM] Added to cache f7.txt
+[Thread] [5/22/2026 8:50:08 AM] Result stored in cache for query: 'f7.txt'
+[FileUtility] [5/22/2026 8:50:08 AM] Results for file f7.txt saved
+[CACHE] [5/22/2026 8:50:08 AM] Read from cache f7.txt
+[Thread] [5/22/2026 8:50:08 AM] CACHE HIT  -> 'f7.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:50:08 AM] Results for file f7.txt saved
+[CACHE] [5/22/2026 8:50:08 AM] Read from cache f7.txt
+[Thread] [5/22/2026 8:50:08 AM] CACHE HIT  -> 'f7.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:50:08 AM] Results for file f7.txt saved
+[Thread] [5/22/2026 8:50:08 AM] CACHE MISS -> 'f8.txt' (sending API request)
+[Thread] [5/22/2026 8:50:08 AM] started for file: 'f10.txt'
+[Thread] [5/22/2026 8:50:08 AM] started for file: 'f10.txt'
+[CACHE] [5/22/2026 8:50:08 AM] Added to cache f8.txt
+[Thread] [5/22/2026 8:50:08 AM] Result stored in cache for query: 'f8.txt'
+[FileUtility] [5/22/2026 8:50:08 AM] Results for file f8.txt saved
+[CACHE] [5/22/2026 8:50:08 AM] Read from cache f8.txt
+[Thread] [5/22/2026 8:50:08 AM] CACHE HIT  -> 'f8.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:50:08 AM] Results for file f8.txt saved
+[CACHE] [5/22/2026 8:50:08 AM] Read from cache f8.txt
+[Thread] [5/22/2026 8:50:08 AM] CACHE HIT  -> 'f8.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:50:08 AM] Results for file f8.txt saved
+[Thread] [5/22/2026 8:50:08 AM] CACHE MISS -> 'f9.txt' (sending API request)
+[CACHE] [5/22/2026 8:50:08 AM] Added to cache f9.txt
+[Thread] [5/22/2026 8:50:08 AM] Result stored in cache for query: 'f9.txt'
+[FileUtility] [5/22/2026 8:50:08 AM] Results for file f9.txt saved
+[CACHE] [5/22/2026 8:50:08 AM] Read from cache f9.txt
+[Thread] [5/22/2026 8:50:08 AM] CACHE HIT  -> 'f9.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:50:08 AM] Results for file f9.txt saved
+[CACHE] [5/22/2026 8:50:08 AM] Read from cache f9.txt
+[Thread] [5/22/2026 8:50:08 AM] CACHE HIT  -> 'f9.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:50:08 AM] Results for file f9.txt saved
+[Thread] [5/22/2026 8:50:08 AM] CACHE MISS -> 'f10.txt' (sending API request)
+[CACHE] [5/22/2026 8:50:08 AM] Added to cache f10.txt
+[Thread] [5/22/2026 8:50:08 AM] Result stored in cache for query: 'f10.txt'
+[FileUtility] [5/22/2026 8:50:08 AM] Results for file f10.txt saved
+[CACHE] [5/22/2026 8:50:08 AM] Read from cache f10.txt
+[Thread] [5/22/2026 8:50:08 AM] CACHE HIT  -> 'f10.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:50:08 AM] Results for file f10.txt saved
+[CACHE] [5/22/2026 8:50:08 AM] Read from cache f10.txt
+[Thread] [5/22/2026 8:50:08 AM] CACHE HIT  -> 'f10.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:50:08 AM] Results for file f10.txt saved
+[Listener] [5/22/2026 8:51:11 AM] Heard a request
+[Thread] [5/22/2026 8:51:11 AM] started for file: 'fajl1.txt'
+[Thread] [5/22/2026 8:51:11 AM] CACHE MISS -> 'fajl1.txt' (sending API request)
+[CACHE] [5/22/2026 8:51:11 AM] Added to cache fajl1.txt
+[Thread] [5/22/2026 8:51:11 AM] Result stored in cache for query: 'fajl1.txt'
+[FileUtility] [5/22/2026 8:51:11 AM] Results for file fajl1.txt saved
+[Listener] [5/22/2026 8:51:11 AM] Heard a request
+[Thread] [5/22/2026 8:51:11 AM] started for file: 'favicon.ico'
+[Thread] [5/22/2026 8:51:11 AM] CACHE MISS -> 'favicon.ico' (sending API request)
+[CACHE] [5/22/2026 8:51:11 AM] Added to cache favicon.ico
+[Thread] [5/22/2026 8:51:11 AM] Result stored in cache for query: 'favicon.ico'
+[FileUtility] [5/22/2026 8:51:11 AM] Results for file favicon.ico saved
+[Listener] [5/22/2026 8:51:20 AM] Heard a request
+[Thread] [5/22/2026 8:51:20 AM] started for file: 'fajl1.txt'
+[CACHE] [5/22/2026 8:51:20 AM] Read from cache fajl1.txt
+[Thread] [5/22/2026 8:51:20 AM] CACHE HIT  -> 'fajl1.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:51:20 AM] Results for file fajl1.txt saved
+
+[ApiService] [5/22/2026 8:51:55 AM] SIGINT called
+[ApiService] [5/22/2026 8:51:55 AM] Error: Thread unjoinable - Thread has not been started.
+[ApiService] [5/22/2026 8:52:08 AM] Started up!
+[Listener] [5/22/2026 8:52:12 AM] Heard a request
+[Listener] [5/22/2026 8:52:12 AM] Heard a request
+[Listener] [5/22/2026 8:52:12 AM] Heard a request
+[Listener] [5/22/2026 8:52:12 AM] Heard a request
+[Listener] [5/22/2026 8:52:12 AM] Heard a request
+[Listener] [5/22/2026 8:52:12 AM] Heard a request
+[Listener] [5/22/2026 8:52:12 AM] Heard a request
+[Listener] [5/22/2026 8:52:12 AM] Heard a request
+[Listener] [5/22/2026 8:52:12 AM] Heard a request
+[Listener] [5/22/2026 8:52:12 AM] Heard a request
+[Listener] [5/22/2026 8:52:12 AM] Heard a request
+[Listener] [5/22/2026 8:52:12 AM] Heard a request
+[Listener] [5/22/2026 8:52:12 AM] Heard a request
+[Listener] [5/22/2026 8:52:12 AM] Heard a request
+[Listener] [5/22/2026 8:52:12 AM] Heard a request
+[Thread] [5/22/2026 8:52:12 AM] started for file: 'f1.txt'
+[Thread] [5/22/2026 8:52:12 AM] started for file: 'f1.txt'
+[Thread] [5/22/2026 8:52:12 AM] started for file: 'f1.txt'
+[Listener] [5/22/2026 8:52:12 AM] Heard a request
+[Listener] [5/22/2026 8:52:12 AM] Heard a request
+[Thread] [5/22/2026 8:52:12 AM] started for file: 'f2.txt'
+[Thread] [5/22/2026 8:52:12 AM] started for file: 'f2.txt'
+[Thread] [5/22/2026 8:52:12 AM] started for file: 'f3.txt'
+[Thread] [5/22/2026 8:52:12 AM] CACHE MISS -> 'f1.txt' (sending API request)
+[Thread] [5/22/2026 8:52:12 AM] started for file: 'f2.txt'
+[Thread] [5/22/2026 8:52:12 AM] started for file: 'f3.txt'
+[Listener] [5/22/2026 8:52:12 AM] Heard a request
+[Listener] [5/22/2026 8:52:12 AM] Heard a request
+[Listener] [5/22/2026 8:52:12 AM] Heard a request
+[Listener] [5/22/2026 8:52:12 AM] Heard a request
+[Listener] [5/22/2026 8:52:12 AM] Heard a request
+[Thread] [5/22/2026 8:52:12 AM] started for file: 'f4.txt'
+[Thread] [5/22/2026 8:52:12 AM] started for file: 'f4.txt'
+[Listener] [5/22/2026 8:52:12 AM] Heard a request
+[Listener] [5/22/2026 8:52:12 AM] Heard a request
+[Listener] [5/22/2026 8:52:12 AM] Heard a request
+[Listener] [5/22/2026 8:52:12 AM] Heard a request
+[Listener] [5/22/2026 8:52:12 AM] Heard a request
+[Listener] [5/22/2026 8:52:12 AM] Heard a request
+[Listener] [5/22/2026 8:52:12 AM] Heard a request
+[Listener] [5/22/2026 8:52:12 AM] Heard a request
+[CACHE] [5/22/2026 8:52:12 AM] Added to cache f1.txt
+[Thread] [5/22/2026 8:52:12 AM] Result stored in cache for query: 'f1.txt'
+[FileUtility] [5/22/2026 8:52:12 AM] Results for file f1.txt saved
+[CACHE] [5/22/2026 8:52:12 AM] Read from cache f1.txt
+[Thread] [5/22/2026 8:52:12 AM] CACHE HIT  -> 'f1.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:52:12 AM] Results for file f1.txt saved
+[CACHE] [5/22/2026 8:52:12 AM] Read from cache f1.txt
+[Thread] [5/22/2026 8:52:12 AM] CACHE HIT  -> 'f1.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:52:12 AM] Results for file f1.txt saved
+[Thread] [5/22/2026 8:52:12 AM] CACHE MISS -> 'f2.txt' (sending API request)
+[Thread] [5/22/2026 8:52:12 AM] started for file: 'f4.txt'
+[Thread] [5/22/2026 8:52:12 AM] started for file: 'f3.txt'
+[Thread] [5/22/2026 8:52:12 AM] started for file: 'f5.txt'
+[CACHE] [5/22/2026 8:52:12 AM] Added to cache f2.txt
+[Thread] [5/22/2026 8:52:12 AM] Result stored in cache for query: 'f2.txt'
+[FileUtility] [5/22/2026 8:52:12 AM] Results for file f2.txt saved
+[CACHE] [5/22/2026 8:52:12 AM] Read from cache f2.txt
+[Thread] [5/22/2026 8:52:12 AM] CACHE HIT  -> 'f2.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:52:12 AM] Results for file f2.txt saved
+[Thread] [5/22/2026 8:52:12 AM] CACHE MISS -> 'f3.txt' (sending API request)
+[Thread] [5/22/2026 8:52:13 AM] started for file: 'f5.txt'
+[Thread] [5/22/2026 8:52:13 AM] started for file: 'f6.txt'
+[CACHE] [5/22/2026 8:52:13 AM] Added to cache f3.txt
+[Thread] [5/22/2026 8:52:13 AM] Result stored in cache for query: 'f3.txt'
+[FileUtility] [5/22/2026 8:52:13 AM] Results for file f3.txt saved
+[CACHE] [5/22/2026 8:52:13 AM] Read from cache f2.txt
+[Thread] [5/22/2026 8:52:13 AM] CACHE HIT  -> 'f2.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:52:13 AM] Results for file f2.txt saved
+[CACHE] [5/22/2026 8:52:13 AM] Read from cache f3.txt
+[Thread] [5/22/2026 8:52:13 AM] CACHE HIT  -> 'f3.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:52:13 AM] Results for file f3.txt saved
+[Thread] [5/22/2026 8:52:13 AM] CACHE MISS -> 'f4.txt' (sending API request)
+[Thread] [5/22/2026 8:52:13 AM] started for file: 'f5.txt'
+[Thread] [5/22/2026 8:52:13 AM] started for file: 'f6.txt'
+[Thread] [5/22/2026 8:52:13 AM] started for file: 'f6.txt'
+[CACHE] [5/22/2026 8:52:13 AM] Added to cache f4.txt
+[Thread] [5/22/2026 8:52:13 AM] Result stored in cache for query: 'f4.txt'
+[FileUtility] [5/22/2026 8:52:13 AM] Results for file f4.txt saved
+[CACHE] [5/22/2026 8:52:13 AM] Read from cache f4.txt
+[Thread] [5/22/2026 8:52:13 AM] CACHE HIT  -> 'f4.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:52:13 AM] Results for file f4.txt saved
+[CACHE] [5/22/2026 8:52:13 AM] Read from cache f4.txt
+[Thread] [5/22/2026 8:52:13 AM] CACHE HIT  -> 'f4.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:52:13 AM] Results for file f4.txt saved
+[CACHE] [5/22/2026 8:52:13 AM] Read from cache f3.txt
+[Thread] [5/22/2026 8:52:13 AM] CACHE HIT  -> 'f3.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:52:13 AM] Results for file f3.txt saved
+[Thread] [5/22/2026 8:52:13 AM] CACHE MISS -> 'f5.txt' (sending API request)
+[Thread] [5/22/2026 8:52:13 AM] started for file: 'f7.txt'
+[Thread] [5/22/2026 8:52:13 AM] started for file: 'f7.txt'
+[Thread] [5/22/2026 8:52:13 AM] started for file: 'f7.txt'
+[Thread] [5/22/2026 8:52:13 AM] started for file: 'f8.txt'
+[CACHE] [5/22/2026 8:52:13 AM] Added to cache f5.txt
+[Thread] [5/22/2026 8:52:13 AM] Result stored in cache for query: 'f5.txt'
+[FileUtility] [5/22/2026 8:52:13 AM] Results for file f5.txt saved
+[CACHE] [5/22/2026 8:52:13 AM] Read from cache f5.txt
+[Thread] [5/22/2026 8:52:13 AM] CACHE HIT  -> 'f5.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:52:13 AM] Results for file f5.txt saved
+[Thread] [5/22/2026 8:52:13 AM] CACHE MISS -> 'f6.txt' (sending API request)
+[CACHE] [5/22/2026 8:52:13 AM] Added to cache f6.txt
+[Thread] [5/22/2026 8:52:13 AM] Result stored in cache for query: 'f6.txt'
+[FileUtility] [5/22/2026 8:52:13 AM] Results for file f6.txt saved
+[CACHE] [5/22/2026 8:52:13 AM] Read from cache f5.txt
+[Thread] [5/22/2026 8:52:13 AM] CACHE HIT  -> 'f5.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:52:13 AM] Results for file f5.txt saved
+[CACHE] [5/22/2026 8:52:13 AM] Read from cache f6.txt
+[Thread] [5/22/2026 8:52:13 AM] CACHE HIT  -> 'f6.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:52:13 AM] Results for file f6.txt saved
+[CACHE] [5/22/2026 8:52:13 AM] Read from cache f6.txt
+[Thread] [5/22/2026 8:52:13 AM] CACHE HIT  -> 'f6.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:52:13 AM] Results for file f6.txt saved
+[Thread] [5/22/2026 8:52:13 AM] CACHE MISS -> 'f7.txt' (sending API request)
+[Thread] [5/22/2026 8:52:13 AM] started for file: 'f8.txt'
+[Thread] [5/22/2026 8:52:13 AM] started for file: 'f8.txt'
+[Thread] [5/22/2026 8:52:13 AM] started for file: 'f9.txt'
+[Thread] [5/22/2026 8:52:13 AM] started for file: 'f9.txt'
+[Thread] [5/22/2026 8:52:13 AM] started for file: 'f9.txt'
+[Thread] [5/22/2026 8:52:13 AM] started for file: 'f10.txt'
+[CACHE] [5/22/2026 8:52:13 AM] Added to cache f7.txt
+[Thread] [5/22/2026 8:52:13 AM] Result stored in cache for query: 'f7.txt'
+[FileUtility] [5/22/2026 8:52:13 AM] Results for file f7.txt saved
+[CACHE] [5/22/2026 8:52:13 AM] Read from cache f7.txt
+[Thread] [5/22/2026 8:52:13 AM] CACHE HIT  -> 'f7.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:52:13 AM] Results for file f7.txt saved
+[CACHE] [5/22/2026 8:52:13 AM] Read from cache f7.txt
+[Thread] [5/22/2026 8:52:13 AM] CACHE HIT  -> 'f7.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:52:13 AM] Results for file f7.txt saved
+[Thread] [5/22/2026 8:52:13 AM] CACHE MISS -> 'f8.txt' (sending API request)
+[Thread] [5/22/2026 8:52:13 AM] started for file: 'f10.txt'
+[Thread] [5/22/2026 8:52:13 AM] started for file: 'f10.txt'
+[CACHE] [5/22/2026 8:52:13 AM] Added to cache f8.txt
+[Thread] [5/22/2026 8:52:13 AM] Result stored in cache for query: 'f8.txt'
+[FileUtility] [5/22/2026 8:52:13 AM] Results for file f8.txt saved
+[CACHE] [5/22/2026 8:52:13 AM] Read from cache f8.txt
+[Thread] [5/22/2026 8:52:13 AM] CACHE HIT  -> 'f8.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:52:13 AM] Results for file f8.txt saved
+[CACHE] [5/22/2026 8:52:13 AM] Read from cache f8.txt
+[Thread] [5/22/2026 8:52:13 AM] CACHE HIT  -> 'f8.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:52:13 AM] Results for file f8.txt saved
+[Thread] [5/22/2026 8:52:13 AM] CACHE MISS -> 'f9.txt' (sending API request)
+[CACHE] [5/22/2026 8:52:13 AM] Added to cache f9.txt
+[Thread] [5/22/2026 8:52:13 AM] Result stored in cache for query: 'f9.txt'
+[FileUtility] [5/22/2026 8:52:13 AM] Results for file f9.txt saved
+[CACHE] [5/22/2026 8:52:13 AM] Read from cache f9.txt
+[Thread] [5/22/2026 8:52:13 AM] CACHE HIT  -> 'f9.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:52:13 AM] Results for file f9.txt saved
+[CACHE] [5/22/2026 8:52:13 AM] Read from cache f9.txt
+[Thread] [5/22/2026 8:52:13 AM] CACHE HIT  -> 'f9.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:52:13 AM] Results for file f9.txt saved
+[Thread] [5/22/2026 8:52:13 AM] CACHE MISS -> 'f10.txt' (sending API request)
+[CACHE] [5/22/2026 8:52:13 AM] Added to cache f10.txt
+[Thread] [5/22/2026 8:52:13 AM] Result stored in cache for query: 'f10.txt'
+[FileUtility] [5/22/2026 8:52:13 AM] Results for file f10.txt saved
+[CACHE] [5/22/2026 8:52:13 AM] Read from cache f10.txt
+[Thread] [5/22/2026 8:52:13 AM] CACHE HIT  -> 'f10.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:52:13 AM] Results for file f10.txt saved
+[CACHE] [5/22/2026 8:52:13 AM] Read from cache f10.txt
+[Thread] [5/22/2026 8:52:13 AM] CACHE HIT  -> 'f10.txt' (taken from cache)
+[FileUtility] [5/22/2026 8:52:13 AM] Results for file f10.txt saved
+[Listener] [5/22/2026 8:55:29 AM] Heard a request
+[Thread] [5/22/2026 8:55:29 AM] started for file: 'fajl1.txt'
+[Thread] [5/22/2026 8:55:29 AM] CACHE MISS -> 'fajl1.txt' (sending API request)
+[CACHE] [5/22/2026 8:55:29 AM] Added to cache fajl1.txt
+[Thread] [5/22/2026 8:55:29 AM] Result stored in cache for query: 'fajl1.txt'
+[FileUtility] [5/22/2026 8:55:29 AM] Results for file fajl1.txt saved
+
+[ApiService] [5/22/2026 9:02:52 AM] SIGINT called
+[ApiService] [5/22/2026 9:02:52 AM] Error: Thread unjoinable - Thread has not been started.

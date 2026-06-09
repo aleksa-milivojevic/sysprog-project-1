@@ -9,7 +9,7 @@ namespace FileUtil
         private string TrackFile(string fileName) {
 
             string home = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
-            string targetDir = home;// + "/sysprog/testfiles";
+            string targetDir = home;// + "/sysprog-proj/sysprog-project-1/testfiles";
             var files = Directory.EnumerateFiles(targetDir, fileName, SearchOption.AllDirectories);
             return files.FirstOrDefault();
         }

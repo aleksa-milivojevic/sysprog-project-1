@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/aleksa/sysprog/project-1/proj1/server/sysprog-proj-1.csproj",
+      "projectUniqueName": "/home/aleksa/sysprog-proj/sysprog-project-1/server/sysprog-proj-1.csproj",
       "projectName": "sysprog-proj-1",
-      "projectPath": "/home/aleksa/sysprog/project-1/proj1/server/sysprog-proj-1.csproj",
+      "projectPath": "/home/aleksa/sysprog-proj/sysprog-project-1/server/sysprog-proj-1.csproj",
       "packagesPath": "/home/aleksa/.nuget/packages/",
-      "outputPath": "/home/aleksa/sysprog/project-1/proj1/server/obj/",
+      "outputPath": "/home/aleksa/sysprog-proj/sysprog-project-1/server/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/aleksa/.nuget/NuGet/NuGet.Config"

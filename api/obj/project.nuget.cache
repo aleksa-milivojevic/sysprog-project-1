@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ROf8Zij93Ro=",
+  "dgSpecHash": "5cbVFCKk8Wo=",
   "success": true,
-  "projectFilePath": "/home/aleksa/sysprog/project-1/proj1/api/api.csproj",
+  "projectFilePath": "/home/aleksa/sysprog-proj/sysprog-project-1/api/api.csproj",
   "expectedPackageFiles": [
     "/home/aleksa/.nuget/packages/microsoft.aspnetcore.openapi/10.0.4/microsoft.aspnetcore.openapi.10.0.4.nupkg.sha512",
     "/home/aleksa/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512",
